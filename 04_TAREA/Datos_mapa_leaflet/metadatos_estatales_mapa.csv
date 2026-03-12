@@ -1,0 +1,6 @@
+no,indicador,unidad_medida,clasificacion,anio_mas_reciente,descripcion,fuente
+173,Tasa bruta anual de defunciones por homicidio (Total),Casos por cada 100 mil habitantes,4.2. Seguridad,2023,Número de defunciones por homicidio por cada 100 mil habitantes. Incluye todas las causas clasificadas como homicidio.,INEGI - Estadísticas de mortalidad / CONAPO
+360,"Tasa de suicidios por cada 100,000 habitantes",Defunciones por cada 100 mil habitantes,1.5. Salud,2020,Número de defunciones por suicidio por cada 100 mil habitantes.,INEGI - Estadísticas de mortalidad / CONAPO
+1025,Porcentaje de personas en pobreza laboral,Porcentaje,1.1. Calidad de vida,2024,Porcentaje de la población cuyo ingreso laboral es inferior al costo de la canasta alimentaria.,CONEVAL
+1266,PIB per cápita (total),Pesos corrientes,2.1. Actividad económica,2023,"Valor del Producto Interno Bruto dividido entre la población total de la entidad, en pesos corrientes.",INEGI - Sistema de Cuentas Nacionales
+1047,Porcentaje de hogares con internet,Porcentaje,5. Tecnología e innovación,2023,Porcentaje de hogares que cuentan con conexión a internet.,INEGI - ENDUTIH / Censo de Población y Vivienda
