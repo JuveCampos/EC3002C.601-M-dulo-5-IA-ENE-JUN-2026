@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>09b. APIs para LLMs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css">
+<style>
+  :root {
+    --tec-blue: #0C4E7E;
+    --tec-red: #E52534;
+    --api-teal: #2BA5A5;
+    --easy-green: #1D8B24;
+    --code-bg: #0F1F3D;
+  }
+
+  .reveal {
+    font-family: 'Helvetica Neue', 'Avenir Next', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+  }
+
+  .reveal .slides {
+    text-align: left;
+  }
+
+  .reveal section {
+    padding: 0 !important;
+  }
+
+  .reveal .slide-black {
+    background: #000;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 40px 60px;
+    box-sizing: border-box;
+  }
+
+  .reveal .slide-white {
+    background: #fff;
+    color: #111;
+    height: 100%;
+    width: 100%;
+    padding: 40px 60px;
+    box-sizing: border-box;
+  }
+
+  .reveal .banner {
+    display: inline-block;
+    padding: 18px 40px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 44px;
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+  }
+
+  .banner-teal { background: var(--api-teal); }
+  .banner-blue { background: var(--tec-blue); }
+  .banner-red  { background: var(--tec-red);  }
+  .banner-green{ background: var(--easy-green); }
+
+  .reveal .corner-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--easy-green);
+    color: #fff;
+    padding: 12px 80px;
+    font-weight: 800;
+    transform: rotate(45deg) translate(60px, -20px);
+    transform-origin: center;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .reveal h2 { font-size: 44px; font-weight: 800; margin: 0 0 30px 0; }
+  .reveal p  { font-size: 32px; line-height: 1.35; margin: 0 0 18px 0; }
+  .reveal ul { font-size: 32px; line-height: 1.4; margin-left: 0; }
+  .reveal li { margin-bottom: 14px; }
+
+  .reveal strong { font-weight: 800; }
+  .reveal u { text-decoration: underline; text-decoration-thickness: 2px; }
+
+  .reveal .emph {
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  .reveal code {
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    background: rgba(255,255,255,0.08);
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  .reveal pre {
+    background: var(--code-bg);
+    border-radius: 8px;
+    padding: 20px 28px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    margin: 16px 0;
+  }
+
+  .reveal pre code {
+    background: none;
+    padding: 0;
+    color: #dcdcdc;
+    font-size: 22px;
+    line-height: 1.45;
+    display: block;
+    overflow-x: auto;
+  }
+
+  .reveal .code-caption {
+    color: var(--tec-red);
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .reveal .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .reveal .box-blue, .reveal .box-green, .reveal .box-red {
+    padding: 22px 28px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .box-blue  { background: var(--tec-blue);  }
+  .box-green { background: var(--easy-green); }
+  .box-red   { background: var(--tec-red);   }
+
+  .reveal .status-table {
+    font-size: 28px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .reveal .status-table td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #444;
+  }
+  .reveal .status-table .code-cell {
+    font-family: 'Menlo', monospace;
+    font-weight: 800;
+    color: var(--api-teal);
+    width: 120px;
+  }
+
+  .reveal .cover {
+    background: linear-gradient(180deg, #fff 0%, #fff 30%, #D7E2EE 30%, #D7E2EE 85%, #fff 85%);
+    height: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+  }
+  .reveal .cover h1 {
+    font-size: 120px;
+    color: var(--tec-red);
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+  }
+  .reveal .cover h3 {
+    font-size: 46px;
+    color: var(--tec-blue);
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  .reveal .cover .author {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    text-align: right;
+    color: var(--tec-blue);
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .reveal .cover .author .email {
+    color: var(--tec-red);
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 6px;
+  }
+
+  .reveal .footnote {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    font-size: 18px;
+    color: #888;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- 1. Portada -->
+    <section>
+      <div class="cover">
+        <div style="color: var(--tec-blue); font-weight: 800; font-size: 36px; margin-bottom: 40px;">
+          Tecnológico de Monterrey
+        </div>
+        <div style="margin-top: 180px;">
+          <h1>09b. APIs para LLMs</h1>
+          <h3>Módulo 5. Inteligencia Artificial</h3>
+          <div style="color: var(--tec-blue); font-size: 28px; margin-top: 20px; font-style: italic;">
+            Complemento de la Clase 09
+          </div>
+        </div>
+        <div class="author">
+          Jorge Juvenal<br>Campos Ferreira
+          <div class="email">juvenal.campos@tec.mx</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Recap / por qué este complemento -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">¿Qué falta por cubrir?</div>
+        <p>En la clase anterior vimos el <strong>patrón GET</strong> con PokéAPI.</p>
+        <p>Pero el <strong>ejercicio práctico</strong> exige algo más:</p>
+        <ul>
+          <li>Llamar a <u>APIs de LLMs</u> (Gemini, OpenAI, Claude)</li>
+          <li>Usar <u>Ollama</u> para correr modelos de forma local</li>
+          <li>Usar el paquete <code>{ellmer}</code></li>
+          <li>Descargar comentarios con <code>{tuber}</code></li>
+          <li>Iterar múltiples llamadas de forma segura</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. GET vs POST -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">GET vs POST</div>
+        <div class="two-col">
+          <div class="box-blue">
+            <h2 style="font-size: 36px;">GET</h2>
+            <p style="font-size: 26px;"><strong>"Dame algo"</strong></p>
+            <p style="font-size: 24px;">Los parámetros van <u>en la URL</u>.</p>
+            <p style="font-size: 24px;">Sirve para consultar datos que ya existen.</p>
+            <p style="font-size: 22px; font-style: italic;">Ejemplo: PokéAPI, INEGI, clima.</p>
+          </div>
+          <div class="box-green">
+            <h2 style="font-size: 36px;">POST</h2>
+            <p style="font-size: 26px;"><strong>"Aquí te mando algo"</strong></p>
+            <p style="font-size: 24px;">Los datos van en el <u>body</u> (JSON).</p>
+            <p style="font-size: 24px;">Sirve para enviar información al servidor.</p>
+            <p style="font-size: 22px; font-style: italic;">Ejemplo: llamar a un LLM con tu prompt.</p>
+          </div>
+        </div>
+        <p style="margin-top: 30px; font-size: 28px;">Las APIs de LLMs son <span class="emph">siempre POST</span>: les mandamos el prompt en el body.</p>
+      </div>
+    </section>
+
+    <!-- 4. Códigos de estado HTTP -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Códigos de estado HTTP</div>
+        <p>Toda respuesta de API trae un <strong>status code</strong>. No solo 200.</p>
+        <table class="status-table">
+          <tr><td class="code-cell">200</td><td><strong>OK</strong> &mdash; todo bien.</td></tr>
+          <tr><td class="code-cell">401</td><td><strong>Unauthorized</strong> &mdash; falta el token o está mal.</td></tr>
+          <tr><td class="code-cell">403</td><td><strong>Forbidden</strong> &mdash; tu token no tiene permisos para eso.</td></tr>
+          <tr><td class="code-cell">404</td><td><strong>Not Found</strong> &mdash; el recurso no existe.</td></tr>
+          <tr><td class="code-cell">429</td><td><strong>Too Many Requests</strong> &mdash; te excediste el rate limit.</td></tr>
+          <tr><td class="code-cell">500</td><td><strong>Server Error</strong> &mdash; falló el servidor, reintenta después.</td></tr>
+        </table>
+        <p style="margin-top: 24px; font-size: 24px; font-style: italic;">Siempre verifica con <code>httr::status_code(respuesta)</code> antes de procesar.</p>
+      </div>
+    </section>
+
+    <!-- 5. Headers y autenticación -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Headers y autenticación</div>
+        <p>Los <strong>headers</strong> son metadatos que acompañan la petición.</p>
+        <p>Dos headers clave para APIs modernas:</p>
+        <ul>
+          <li><code>Authorization: Bearer &lt;TU_TOKEN&gt;</code> &mdash; quién eres.</li>
+          <li><code>Content-Type: application/json</code> &mdash; qué formato envías.</li>
+        </ul>
+<pre><code class="language-r"># Cargar el token guardado en .Renviron
+api_key &lt;- Sys.getenv("GEMINI_API_KEY")
+
+# Construir los headers
+mis_headers &lt;- httr::add_headers(
+  `Authorization` = paste("Bearer", api_key),
+  `Content-Type`  = "application/json"
+)</code></pre>
+      </div>
+    </section>
+
+    <!-- 6. Ejemplo: POST directo con httr -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">POST directo con httr</div>
+        <p>Si quisiéramos llamar a Gemini <u>sin cliente</u>, se vería así:</p>
+<pre><code class="language-r">library(httr)
+library(jsonlite)
+
+url &lt;- "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+
+# Cuerpo de la petición (se convierte a JSON)
+cuerpo &lt;- list(
+  contents = list(
+    list(parts = list(list(text = "Hola, ¿qué es una API?")))
+  )
+)
+
+respuesta &lt;- POST(
+  url   = paste0(url, "?key=", Sys.getenv("GEMINI_API_KEY")),
+  body  = toJSON(cuerpo, auto_unbox = TRUE),
+  content_type_json()
+)
+
+fromJSON(content(respuesta, "text"), flatten = TRUE)</code></pre>
+        <p class="code-caption">Funciona, pero es frágil. Preferimos un <u>cliente</u>.</p>
+      </div>
+    </section>
+
+    <!-- 7. APIs de LLMs: qué las hace distintas -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">APIs de LLMs</div>
+        <p>Las APIs de LLMs tienen particularidades:</p>
+        <ul>
+          <li>Son <strong>POST</strong> con un body estructurado (mensajes con roles).</li>
+          <li>Aceptan un <u>system prompt</u> para darle personalidad o instrucciones.</li>
+          <li>Devuelven texto <strong>generativo</strong> (no datos tabulares).</li>
+          <li>Cuestan dinero por <u>tokens</u> de entrada y salida.</li>
+          <li>Tienen rate limits estrictos (OpenAI: RPM, TPM).</li>
+        </ul>
+        <p style="margin-top: 30px;">Por eso existe <code>{ellmer}</code>: para no reescribir todo esto a mano.</p>
+      </div>
+    </section>
+
+    <!-- 8. ellmer: cliente unificado -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">ellmer: cliente unificado</div>
+        <div style="position: absolute; top: 0; right: 60px; background: var(--easy-green); color: #fff; padding: 10px 40px; font-weight: 800; font-style: italic; transform: rotate(45deg) translate(40px, 20px); font-size: 18px;">La forma fácil</div>
+        <p><code>{ellmer}</code> es un <strong>cliente unificado para LLMs</strong> hecho por Posit.</p>
+        <ul>
+          <li>Mismo código para <u>Claude, OpenAI, Gemini, Ollama</u>.</li>
+          <li>Maneja autenticación, retry, streaming, tool use.</li>
+          <li>Lee las llaves de <code>.Renviron</code> automáticamente.</li>
+          <li>Soporta <strong>salidas estructuradas</strong> (JSON validado).</li>
+        </ul>
+<pre><code class="language-r">install.packages("ellmer")
+library(ellmer)</code></pre>
+      </div>
+    </section>
+
+    <!-- 9. chat_google_gemini() ejemplo básico -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">chat_google_gemini()</div>
+        <p>Crear un chat con Gemini es una sola llamada:</p>
+<pre><code class="language-r">library(ellmer)
+
+# Asume GOOGLE_API_KEY en .Renviron
+chat &lt;- chat_google_gemini(
+  model = "gemini-2.0-flash"
+)
+
+# Mandar un mensaje y obtener la respuesta
+respuesta &lt;- chat$chat("Explícame qué es una API en una oración.")
+
+respuesta</code></pre>
+        <p style="margin-top: 20px;">El objeto <code>chat</code> <u>recuerda</u> el historial por defecto.</p>
+        <p style="font-style: italic; font-size: 22px; color: #888;">Verifica el nombre exacto de la función en <code>?ellmer</code> &mdash; la API del paquete evoluciona rápido.</p>
+      </div>
+    </section>
+
+    <!-- 10. System prompts -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">System prompts</div>
+        <p>Un <strong>system prompt</strong> define el <u>rol</u> y las reglas del modelo antes de empezar.</p>
+<pre><code class="language-r">chat &lt;- chat_google_gemini(
+  system_prompt = "
+    Eres un moderador experto en redes sociales.
+    Clasificas mensajes en español como discurso de odio o no.
+    Responde siempre en formato JSON con los campos:
+      - es_discurso_odio (TRUE/FALSE)
+      - razon (string corto)
+  ",
+  model = "gemini-2.0-flash"
+)
+
+chat$chat("Todos los aficionados del otro equipo son unos idiotas.")</code></pre>
+        <p style="margin-top: 20px;">Buen <u>system prompt</u> = respuestas consistentes y útiles.</p>
+      </div>
+    </section>
+
+    <!-- 11. Salidas estructuradas -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Salidas estructuradas</div>
+        <p>En vez de pedir JSON en el prompt, podemos <u>garantizarlo</u> con tipos:</p>
+<pre><code class="language-r">library(ellmer)
+
+# Definir el esquema de salida
+tipo_odio &lt;- type_object(
+  es_discurso_odio = type_boolean(
+    "TRUE si el mensaje contiene discurso de odio."
+  ),
+  razon = type_string(
+    "Explicación breve en español."
+  ),
+  confianza = type_number(
+    "Confianza del 0 al 1."
+  )
+)
+
+# Extraer datos estructurados
+resultado &lt;- chat$chat_structured(
+  "Todos los del otro equipo son unos idiotas.",
+  type = tipo_odio
+)
+
+resultado$es_discurso_odio  # TRUE / FALSE
+resultado$razon</code></pre>
+      </div>
+    </section>
+
+    <!-- 12. Ollama: LLMs locales -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Ollama: LLMs locales</div>
+        <p><strong>Ollama</strong> es un servidor que corre LLMs en <u>tu propia máquina</u>.</p>
+        <div class="two-col" style="margin-top: 20px;">
+          <div class="box-green">
+            <h2 style="font-size: 32px;">Ventajas</h2>
+            <ul style="font-size: 24px;">
+              <li><strong>Gratis</strong> (no hay costo por token)</li>
+              <li><strong>Privado</strong> (los datos no salen)</li>
+              <li>Sin rate limits</li>
+              <li>Funciona sin internet</li>
+            </ul>
+          </div>
+          <div class="box-red">
+            <h2 style="font-size: 32px;">Desventajas</h2>
+            <ul style="font-size: 24px;">
+              <li>Modelos más <strong>pequeños</strong></li>
+              <li>Usa <strong>RAM y GPU</strong></li>
+              <li>Más lento que las APIs de nube</li>
+              <li>Calidad menor que GPT-4 o Claude</li>
+            </ul>
+          </div>
+        </div>
+        <pre style="margin-top: 16px;"><code class="language-bash"># En terminal, antes de usar desde R:
+ollama pull qwen2.5:7b
+ollama pull llama3.2</code></pre>
+      </div>
+    </section>
+
+    <!-- 13. chat_ollama -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">chat_ollama()</div>
+        <p>El patrón es <u>idéntico</u> al de Gemini. Solo cambia el constructor:</p>
+<pre><code class="language-r">library(ellmer)
+
+chat_local &lt;- chat_ollama(
+  system_prompt = "
+    Eres un clasificador de discurso de odio.
+    Respondes solo TRUE o FALSE.
+  ",
+  model = "qwen2.5:7b"
+)
+
+chat_local$chat("Me encantó el partido de ayer.")
+# [1] "FALSE"
+
+chat_local$chat("Ojalá se muera ese jugador.")
+# [1] "TRUE"</code></pre>
+        <p style="margin-top: 20px;">Ollama debe estar corriendo (<code>ollama serve</code> o la app).</p>
+      </div>
+    </section>
+
+    <!-- 14. Clientes específicos -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Otros clientes API para R</div>
+        <p>Para APIs no-LLM, usa el cliente dedicado cuando exista:</p>
+        <table class="status-table">
+          <tr>
+            <td class="code-cell" style="color: var(--easy-green);">{tuber}</td>
+            <td>YouTube Data API: videos, canales, <u>comentarios</u>.</td>
+          </tr>
+          <tr>
+            <td class="code-cell" style="color: var(--easy-green);">{inegiR}</td>
+            <td>INEGI: PIB, ENOE, ENIGH, indicadores del BIE.</td>
+          </tr>
+          <tr>
+            <td class="code-cell" style="color: var(--easy-green);">{tidyquant}</td>
+            <td>Precios de acciones, Yahoo Finance, tipos de cambio.</td>
+          </tr>
+          <tr>
+            <td class="code-cell" style="color: var(--easy-green);">{spotifyr}</td>
+            <td>Spotify: playlists, popularidad, audio features.</td>
+          </tr>
+          <tr>
+            <td class="code-cell" style="color: var(--easy-green);">{openmeteo}</td>
+            <td>Clima pronosticado e histórico (sin token).</td>
+          </tr>
+        </table>
+        <p style="margin-top: 24px;">Siempre <span class="emph">busca el cliente primero</span>; solo cae a <code>httr</code> si no existe.</p>
+      </div>
+    </section>
+
+    <!-- 15. Ejemplo tuber -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Ejemplo: tuber para YouTube</div>
+        <p>Flujo típico: <u>autenticación OAuth</u>, luego consulta.</p>
+<pre><code class="language-r">library(tuber)
+library(tidyverse)
+
+# Autenticación (se abre el navegador la primera vez)
+yt_oauth(
+  app_id     = Sys.getenv("YT_APP_ID"),
+  app_secret = Sys.getenv("YT_APP_SECRET")
+)
+
+# Descargar los comentarios de un video
+comentarios &lt;- get_comment_threads(
+  filter      = c(video_id = "dQw4w9WgXcQ"),
+  max_results = 100
+)
+
+comentarios %&gt;%
+  as_tibble() %&gt;%
+  select(authorDisplayName, textOriginal, likeCount)</code></pre>
+      </div>
+    </section>
+
+    <!-- 16. Iterando APIs con lapply + manejo de errores -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Iterando APIs de forma segura</div>
+        <p>Para los 151 pokémon, iteramos con <code>lapply()</code> y protegemos con <code>tryCatch()</code>:</p>
+<pre><code class="language-r">library(httr)
+library(jsonlite)
+
+# Función que consulta un pokémon y maneja errores
+consulta_pokemon &lt;- function(id) {
+  url &lt;- paste0("https://pokeapi.co/api/v2/pokemon/", id)
+
+  tryCatch({
+    r &lt;- GET(url)
+    stopifnot(status_code(r) == 200)
+    datos &lt;- fromJSON(content(r, "text"), flatten = TRUE)
+
+    tibble(
+      id     = datos$id,
+      nombre = datos$name,
+      peso   = datos$weight,
+      altura = datos$height,
+      sprite = datos$sprites.front_default
+    )
+  }, error = function(e) {
+    message("Fallo en id ", id, ": ", e$message)
+    NULL
+  })
+}
+
+# Iterar sobre los 151 y apilar
+pokedex &lt;- lapply(1:151, consulta_pokemon) %&gt;%
+  do.call(rbind, .)</code></pre>
+      </div>
+    </section>
+
+    <!-- 17. Buenas prácticas / rate limits -->
+    <section>
+      <div class="slide-black">
+        <div class="banner banner-teal">Buenas prácticas al iterar</div>
+        <ul>
+          <li><strong>Pausa</strong> entre llamadas: <code>Sys.sleep(0.5)</code> para respetar el servidor.</li>
+          <li><strong>Cachea</strong> los resultados en disco (<code>saveRDS()</code>) para no repetir llamadas pagadas.</li>
+          <li><strong>Retry con backoff</strong> en códigos 429 y 500.</li>
+          <li>Guarda los <strong>tokens fuera del código</strong> con <code>usethis::edit_r_environ()</code>.</li>
+          <li>Revisa el <strong>status code</strong> antes de procesar la respuesta.</li>
+          <li>Lee la <u>documentación de rate limits</u> de cada API antes de iterar masivamente.</li>
+        </ul>
+<pre><code class="language-r"># Cachear resultados para no volver a pagar
+if (file.exists("resultados.rds")) {
+  resultados &lt;- readRDS("resultados.rds")
+} else {
+  resultados &lt;- lapply(ids, consulta_pokemon)
+  saveRDS(resultados, "resultados.rds")
+}</code></pre>
+      </div>
+    </section>
+
+    <!-- 18. Cierre -->
+    <section>
+      <div class="slide-black" style="display: flex; flex-direction: column; justify-content: center;">
+        <div class="banner banner-red" style="font-size: 52px;">Ejercicio práctico, ahora sí</div>
+        <p style="font-size: 36px; margin-top: 20px;">Con todo esto ya puedes resolver el ejercicio de la clase 09:</p>
+        <ul style="font-size: 30px;">
+          <li>PokéAPI + <code>lapply()</code> para los 151 pokémon</li>
+          <li>Open-Meteo / tidyquant / inegiR &mdash; clientes directos</li>
+          <li><code>tuber</code> para bajar comentarios de YouTube</li>
+          <li><code>ellmer::chat_google_gemini()</code> para detectar discurso de odio</li>
+          <li><code>ellmer::chat_ollama()</code> para repetir el proceso <u>en local</u></li>
+        </ul>
+        <p style="font-size: 28px; margin-top: 40px; font-style: italic; color: var(--api-teal);">
+          Siempre que sea posible: usa un cliente. Cuando no exista: <code>httr</code> + <code>jsonlite</code>.
+        </p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+<script>
+  Reveal.initialize({
+    width: 1420,
+    height: 1080,
+    margin: 0.02,
+    controls: true,
+    progress: true,
+    center: false,
+    hash: true,
+    transition: 'slide',
+    plugins: [ RevealHighlight ]
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+cp,ciudad_ref,nombre,alias,dist_km,descripcion,consulta_sku,consulta_url,consulta_pide_cp,consulta_precio_publicado,consulta_precio_raw
+06000,"Centro, CDMX",Construrama Planetario,planetario,6.513253264750252,Cemex Cemento Gris CPC40 big bag tonelada,0101000002,https://www.construrama.com/planetario/p/0101000002,FALSE,NA,NA
+06000,"Centro, CDMX",Construrama Planetario,planetario,6.513253264750252,Cemex Cemento Gris CPC40RS big bag tonelada,0101000003,https://www.construrama.com/planetario/p/0101000003,FALSE,NA,NA
+06000,"Centro, CDMX",Construrama Planetario,planetario,6.513253264750252,"Deacero Alambre Galvanizado Cal 12.5, Kg",0201000002,https://www.construrama.com/planetario/p/0201000002,FALSE,NA,NA
+06000,"Centro, CDMX",Construrama Planetario,planetario,6.513253264750252,"Deacero Alambre Recocido Cal 16, Kg",0201000008,https://www.construrama.com/planetario/p/0201000008,FALSE,NA,NA
+62854,"Xochitepec, Morelos",Construrama Esthell,materiales-esthell,8.40598377443589,Cemex Cemento Gris CPC40 big bag tonelada,0101000002,https://www.construrama.com/materiales-esthell/p/0101000002,FALSE,NA,NA
+62854,"Xochitepec, Morelos",Construrama Esthell,materiales-esthell,8.40598377443589,Cemex Cemento Gris CPC40RS big bag tonelada,0101000003,https://www.construrama.com/materiales-esthell/p/0101000003,FALSE,NA,NA
+62854,"Xochitepec, Morelos",Construrama Esthell,materiales-esthell,8.40598377443589,"Deacero Alambre Galvanizado Cal 12.5, Kg",0201000002,https://www.construrama.com/materiales-esthell/p/0201000002,FALSE,NA,NA
+62854,"Xochitepec, Morelos",Construrama Esthell,materiales-esthell,8.40598377443589,"Deacero Alambre Recocido Cal 16, Kg",0201000008,https://www.construrama.com/materiales-esthell/p/0201000008,FALSE,NA,NA
+64000,"Monterrey Centro, NL",Construrama Arenas y Gravas Guadalupe,arenasygravasgpe,11.435878651155559,Cemex Cemento Gris CPC40 big bag tonelada,0101000002,https://www.construrama.com/arenasygravasgpe/p/0101000002,FALSE,NA,NA
+64000,"Monterrey Centro, NL",Construrama Arenas y Gravas Guadalupe,arenasygravasgpe,11.435878651155559,Cemex Cemento Gris CPC40RS big bag tonelada,0101000003,https://www.construrama.com/arenasygravasgpe/p/0101000003,FALSE,NA,NA
+64000,"Monterrey Centro, NL",Construrama Arenas y Gravas Guadalupe,arenasygravasgpe,11.435878651155559,"Deacero Alambre Galvanizado Cal 12.5, Kg",0201000002,https://www.construrama.com/arenasygravasgpe/p/0201000002,FALSE,NA,NA
+64000,"Monterrey Centro, NL",Construrama Arenas y Gravas Guadalupe,arenasygravasgpe,11.435878651155559,"Deacero Alambre Recocido Cal 16, Kg",0201000008,https://www.construrama.com/arenasygravasgpe/p/0201000008,FALSE,NA,NA

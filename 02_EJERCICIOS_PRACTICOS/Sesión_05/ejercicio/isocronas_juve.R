@@ -2,8 +2,9 @@
 library(openrouteservice)
 library(tidyverse)
 library(leaflet)
-token = "5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366"
-ors_api_key("5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366")
+
+# token = "5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366"
+# ors_api_key("5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366")
 
 # Definir el punto de partida (latitud, longitud)
 punto_partida <- c(-98.780913, 18.861283)
@@ -11,7 +12,9 @@ punto_partida <- c(-98.780913, 18.861283)
   # c(-3.70379, 40.41678) # Madrid, España
 c(-99.166803, 19.420377)
 # Generar isocronas
+??ors_isochrones
 isocronas <- ors_isochrones(locations = list(punto_partida),
+                            api_key = "5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366",
                             profile = "driving-car",
                             range = c(600, 1200), 
                             output = "sf") # 600s y 1200s (10 y 20 minutos)

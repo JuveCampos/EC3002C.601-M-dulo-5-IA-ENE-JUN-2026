@@ -1,0 +1,6 @@
+sitio,estrategia,n_productos,con_precio,viable_sin_headless
+Mercado Libre (CSS),HTML listing + selectores,163,TRUE,TRUE
+Mercado Libre (LD),JSON-LD schema.org,15,TRUE,TRUE
+Construrama (sitemap),sitemap XML + HTML producto,1024,FALSE,TRUE
+Home Depot MX,HTML (SPA -> vacío),0,FALSE,FALSE
+Sodimac MX,HTML (SPA -> vacío),0,FALSE,FALSE

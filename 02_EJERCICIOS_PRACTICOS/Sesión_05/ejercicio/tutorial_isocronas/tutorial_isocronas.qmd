@@ -1,0 +1,546 @@
+---
+title: "Tutorial: Isócronas con R y OpenRouteService"
+subtitle: "Análisis de accesibilidad geográfica usando OpenStreetMap"
+author: "Jorge Juvenal Campos Ferreira"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-fold: false
+    code-tools: true
+    theme: cosmo
+    embed-resources: true
+    fig-width: 9
+    fig-height: 6
+lang: es
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup-oculto
+#| include: false
+library(openrouteservice)
+library(tidyverse)
+library(leaflet)
+library(sf)
+token <- "5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366"
+```
+
+# Introducción
+
+Este tutorial explica qué son las **isócronas**, para qué sirven, y cómo generarlas en R usando el paquete `openrouteservice` junto con `leaflet` para visualizarlas sobre un mapa interactivo.
+
+## ¿Qué es una isócrona?
+
+Una **isócrona** (del griego *iso* = igual, *chronos* = tiempo) es el polígono que delimita el área a la que se puede llegar desde un punto de origen en un tiempo determinado, utilizando un medio de transporte específico.
+
+Por ejemplo, una isócrona de 10 minutos en automóvil desde el Zócalo de la Ciudad de México representa todo el territorio alcanzable en 10 minutos o menos manejando desde ese punto, considerando la red vial real, velocidades permitidas y restricciones de circulación.
+
+```{r}
+#| label: isocrona-zocalo
+#| fig-cap: "Isócrona de 10 minutos en automóvil desde el Zócalo de la Ciudad de México"
+# Coordenadas del Zócalo (Plaza de la Constitución): (lat, lon) según Google Maps
+# Invertimos el orden porque ORS espera (longitud, latitud)
+zocalo <- c(-99.133408, 19.432698)
+
+iso_zocalo <- ors_isochrones(
+  locations = list(zocalo),
+  api_key   = token,
+  profile   = "driving-car",
+  range     = c(600),        # 600 s = 10 minutos
+  output    = "sf"
+)
+
+leaflet(iso_zocalo) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addPolygons(
+    color       = "#d7191c",
+    weight      = 2,
+    opacity     = 0.9,
+    fillColor   = "#d7191c",
+    fillOpacity = 0.3,
+    label       = "10 min en auto"
+  ) %>%
+  addMarkers(
+    lng   = zocalo[1],
+    lat   = zocalo[2],
+    popup = "Zócalo de la Ciudad de México"
+  )
+```
+
+## ¿Para qué sirven las isócronas?
+
+Las isócronas son una herramienta poderosa para el análisis espacial y la toma de decisiones. Algunos de sus usos más comunes:
+
+- **Planeación urbana**: evaluar el acceso a servicios públicos (hospitales, escuelas, parques).
+- **Análisis de mercado**: estimar el *trade area* o zona de influencia de un negocio.
+- **Logística**: optimizar rutas de reparto y calcular tiempos de entrega.
+- **Estudios de equidad**: medir desigualdades en el acceso a servicios por zona geográfica.
+- **Planeación inmobiliaria**: evaluar la conectividad y atractivo de una ubicación.
+- **Emergencias**: determinar cobertura de ambulancias, bomberos o policía.
+
+A diferencia de simples *buffers* circulares (que asumen distancia euclidiana), las isócronas respetan la **red vial real**, considerando calles, sentidos, velocidades y barreras naturales.
+
+# ¿Qué es OpenStreetMap?
+
+**OpenStreetMap (OSM)** es un proyecto colaborativo creado en 2004 cuyo objetivo es construir un mapa libre y editable del mundo, similar en espíritu a Wikipedia. Cualquier persona puede contribuir agregando calles, edificios, puntos de interés, rutas de transporte público, y más.
+
+**Ventajas de OSM frente a alternativas comerciales:**
+
+- Datos **libres y abiertos** bajo licencia ODbL (Open Database License).
+- Cobertura global, especialmente detallada en zonas donde otros mapas son deficientes.
+- Actualizaciones constantes por parte de la comunidad.
+- Permite descargar los datos crudos para análisis propios.
+
+## Servicios construidos sobre OpenStreetMap
+
+OSM es la **capa de datos base** sobre la cual se han construido múltiples servicios. Algunos de los más relevantes:
+
+- **OpenRouteService (ORS)**: cálculo de rutas, isócronas y matrices de distancia. *(Es el que usaremos en este tutorial.)*
+- **Nominatim**: servicio de geocodificación y geocodificación inversa (convertir direcciones en coordenadas y viceversa).
+- **Overpass API**: lenguaje de consulta para extraer datos específicos del mapa (por ejemplo, todos los hospitales en una ciudad).
+- **OSRM (Open Source Routing Machine)**: motor de ruteo de alto desempeño.
+- **Valhalla**: motor de ruteo modular usado por Mapbox, Tesla y otros.
+- **GraphHopper**: motor de ruteo con API pública, soporta isócronas.
+- **Mapbox**: plataforma comercial que usa OSM como base y ofrece estilos personalizables.
+- **Leaflet / Mapnik**: bibliotecas para renderizar y visualizar mapas basados en tiles de OSM.
+
+En este tutorial usaremos **OpenRouteService** porque tiene un paquete oficial en R y permite generar isócronas gratuitamente con una API key personal.
+
+# Obtener la API Key de OpenRouteService
+
+Para consumir la API de OpenRouteService necesitamos una **llave de autenticación** personal y gratuita.
+
+## Pasos para obtener la API Key
+
+1. **Ir al sitio oficial**: <https://openrouteservice.org/>
+2. **Hacer clic en "Sign Up"** (esquina superior derecha) para crear una cuenta gratuita.
+3. **Completar el formulario** con nombre, correo y contraseña. Confirmar el correo electrónico.
+4. **Iniciar sesión** y entrar al *dashboard* en: <https://openrouteservice.org/dev/#/home>
+5. **Solicitar un token**: en la sección *Tokens*, presionar *Request a token*, seleccionar el plan **Free** (2000 peticiones/día) y darle un nombre descriptivo (ej. `tutorial_isocronas`).
+6. **Copiar la API Key** generada. Se ve así:
+
+    ```
+    5b3ce3597851110001cf6248XXXXXXXXXXXXXXXXXXXXXXXX
+    ```
+
+::: {.callout-warning}
+## Seguridad de la API Key
+
+Nunca compartas públicamente tu API key ni la subas a un repositorio público de GitHub. Se recomienda guardarla como **variable de entorno** en un archivo `.Renviron`:
+
+```r
+# En el archivo ~/.Renviron
+ORS_API_KEY=tu_llave_aqui
+```
+
+Y luego recuperarla en R con:
+
+```r
+token <- Sys.getenv("ORS_API_KEY")
+```
+:::
+
+# Implementación en R
+
+## Cargar las librerías necesarias
+
+```{r}
+#| label: librerias
+library(openrouteservice)
+library(tidyverse)
+library(leaflet)
+library(sf)
+```
+
+- **`openrouteservice`**: cliente R para la API de OpenRouteService.
+- **`tidyverse`**: manipulación y transformación de datos.
+- **`leaflet`**: mapas interactivos basados en tiles de OSM.
+- **`sf`**: manejo de geometrías vectoriales (puntos, líneas, polígonos).
+
+## Definir la API Key
+
+```{r}
+#| label: api-key
+#| eval: false
+# Opción recomendada: leer desde variable de entorno
+token <- Sys.getenv("ORS_API_KEY")
+ors_api_key(token)
+```
+
+```{r}
+#| label: api-key-ejemplo
+#| echo: false
+token <- "5b3ce3597851110001cf6248944acc2635404692ab9e65eee60fa366"
+```
+
+## Definir el punto de partida
+
+OpenRouteService espera las coordenadas en el orden **(longitud, latitud)**, al contrario de lo que suelen mostrar Google Maps o los GPS convencionales.
+
+::: {.callout-important}
+## Orden de las coordenadas
+
+Google Maps y los GPS suelen mostrar las coordenadas como **(latitud, longitud)**, pero ORS (y en general el estándar GeoJSON) las espera como **(longitud, latitud)**. Es un error muy común confundir el orden y terminar con puntos en medio del océano.
+:::
+
+```{r}
+#| label: punto-partida
+# Coordenadas originales copiadas de Google Maps: (lat, lon)
+# lat = 19.359555, lon = -99.257215   -> Ciudad de México, zona poniente
+
+# Invertimos el orden porque ORS espera (longitud, latitud)
+punto_partida <- c(-99.257215, 19.359555)
+
+# Ejemplos de otros puntos que podríamos usar:
+# c(-99.166803, 19.420377)   # Zócalo, Ciudad de México
+# c(-3.70379, 40.41678)       # Madrid, España
+```
+
+## Generar las isócronas
+
+La función `ors_isochrones()` es la que calcula las áreas alcanzables. Sus argumentos principales son:
+
+| Argumento   | Descripción                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `locations` | Lista con los puntos de partida en formato `(lon, lat)`.                    |
+| `profile`   | Modo de transporte: `driving-car`, `foot-walking`, `cycling-regular`, etc.  |
+| `range`     | Vector con los rangos de tiempo (en segundos) o distancia.                  |
+| `range_type`| `"time"` (default) o `"distance"`.                                          |
+| `output`    | `"sf"` para obtener un objeto simple features listo para mapear.            |
+
+```{r}
+#| label: isocronas
+#| eval: false
+isocronas <- ors_isochrones(
+  locations = list(punto_partida),
+  api_key   = token,
+  profile   = "driving-car",
+  range     = c(600, 1200),  # 600s = 10 min, 1200s = 20 min
+  output    = "sf"
+)
+```
+
+```{r}
+#| label: isocronas-real
+#| echo: false
+isocronas <- ors_isochrones(
+  locations = list(punto_partida),
+  api_key   = token,
+  profile   = "driving-car",
+  range     = c(600, 1200),
+  output    = "sf"
+)
+```
+
+El resultado es un objeto `sf` con un polígono por cada rango solicitado:
+
+```{r}
+#| label: inspeccionar
+isocronas %>% glimpse()
+```
+
+## Perfiles de transporte disponibles
+
+OpenRouteService soporta múltiples modos de desplazamiento, cada uno con su propia red y velocidades realistas:
+
+- `driving-car` — automóvil particular.
+- `driving-hgv` — vehículos pesados de carga.
+- `cycling-regular` — bicicleta estándar.
+- `cycling-road` — bicicleta de ruta.
+- `cycling-mountain` — bicicleta de montaña.
+- `cycling-electric` — bicicleta eléctrica.
+- `foot-walking` — caminando.
+- `foot-hiking` — senderismo.
+- `wheelchair` — silla de ruedas (considera accesibilidad).
+
+## Visualizar con leaflet
+
+Para que las isócronas se vean correctamente (las más pequeñas encima de las más grandes), conviene ordenarlas de mayor a menor antes de agregarlas al mapa:
+
+```{r}
+#| label: ordenar-isocronas
+isocronas_ord <- isocronas %>%
+  arrange(desc(value))
+```
+
+Ahora construimos el mapa interactivo:
+
+```{r}
+#| label: mapa
+#| fig-cap: "Isócronas de 10 y 20 minutos en automóvil desde el punto de partida"
+paleta <- colorFactor(
+  palette = c("#2c7fb8", "#7fcdbb"),
+  domain  = isocronas_ord$value
+)
+
+mapa <- leaflet(isocronas_ord) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addPolygons(
+    color       = ~paleta(value),
+    weight      = 2,
+    opacity     = 0.8,
+    fillColor   = ~paleta(value),
+    fillOpacity = 0.3,
+    label       = ~paste0(value / 60, " min")
+  ) %>%
+  addMarkers(
+    lng   = punto_partida[1],
+    lat   = punto_partida[2],
+    popup = "Punto de partida"
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal      = paleta,
+    values   = ~value,
+    title    = "Minutos",
+    labFormat = labelFormat(transform = function(x) x / 60)
+  )
+
+mapa
+```
+
+# Ejercicio: comparar modos de transporte
+
+Un ejercicio interesante es generar isócronas del mismo punto con distintos perfiles y compararlas. A continuación calculamos el área alcanzable en **15 minutos** desde el punto de partida usando tres modos: automóvil, bicicleta y caminando.
+
+```{r}
+#| label: comparar-modos
+iso_auto <- ors_isochrones(
+  locations = list(punto_partida),
+  api_key   = token,
+  profile   = "driving-car",
+  range     = c(900),  # 15 minutos
+  output    = "sf"
+) %>%
+  mutate(modo = "Auto")
+
+iso_bici <- ors_isochrones(
+  locations = list(punto_partida),
+  api_key   = token,
+  profile   = "cycling-regular",
+  range     = c(900),
+  output    = "sf"
+) %>%
+  mutate(modo = "Bicicleta")
+
+iso_pie <- ors_isochrones(
+  locations = list(punto_partida),
+  api_key   = token,
+  profile   = "foot-walking",
+  range     = c(900),
+  output    = "sf"
+) %>%
+  mutate(modo = "Caminando")
+
+comparacion <- bind_rows(iso_auto, iso_bici, iso_pie)
+```
+
+## Visualización comparativa
+
+Ordenamos de mayor a menor área (normalmente Auto > Bici > Caminando) para que las isócronas más pequeñas queden dibujadas encima y se aprecien las tres capas:
+
+```{r}
+#| label: mapa-comparacion
+#| fig-cap: "Área alcanzable en 15 minutos según el modo de transporte"
+comparacion <- comparacion %>%
+  mutate(
+    area_km2 = as.numeric(st_area(.)) / 1e6,
+    modo     = factor(modo, levels = c("Auto", "Bicicleta", "Caminando"))
+  ) %>%
+  arrange(desc(area_km2))
+
+paleta_modos <- colorFactor(
+  palette = c("#e41a1c", "#377eb8", "#4daf4a"),
+  domain  = c("Auto", "Bicicleta", "Caminando")
+)
+
+mapa_comparacion <- leaflet(comparacion) %>%
+  addTiles() %>%
+  addPolygons(
+    color       = ~paleta_modos(modo),
+    weight      = 2,
+    opacity     = 0.9,
+    fillColor   = ~paleta_modos(modo),
+    fillOpacity = 0.35,
+    label       = ~paste0(modo, " — 15 min (", round(area_km2, 2), " km²)"),
+    group       = ~as.character(modo)
+  ) %>%
+  addMarkers(
+    lng   = punto_partida[1],
+    lat   = punto_partida[2],
+    popup = "Punto de partida"
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal      = paleta_modos,
+    values   = ~modo,
+    title    = "Modo (15 min)"
+  ) %>%
+  addLayersControl(
+    overlayGroups = c("Auto", "Bicicleta", "Caminando"),
+    options       = layersControlOptions(collapsed = FALSE)
+  )
+
+mapa_comparacion
+```
+
+El control de capas en la esquina superior derecha permite activar o desactivar cada modo para comparar con mayor claridad. También se aprecia la diferencia de **área alcanzable**:
+
+```{r}
+#| label: tabla-comparacion
+comparacion %>%
+  st_drop_geometry() %>%
+  select(modo, area_km2) %>%
+  arrange(desc(area_km2)) %>%
+  mutate(area_km2 = round(area_km2, 2))
+```
+
+# Ejemplo final: múltiples puntos en CDMX
+
+En este último ejemplo generamos isócronas de **10 minutos en automóvil** para **10 puntos emblemáticos** del centro de la Ciudad de México. Como están relativamente cerca entre sí, varias de las isócronas **se intersectan**, lo que permite visualizar la cobertura combinada y las zonas de sobreposición.
+
+## Definir los puntos
+
+```{r}
+#| label: puntos-cdmx
+puntos_cdmx <- tribble(
+  ~nombre,                     ~lat,      ~lon,
+  "Zócalo",                    19.432698, -99.133408,
+  "Bellas Artes",              19.435231, -99.141221,
+  "Monumento a la Revolución", 19.436140, -99.154000,
+  "Ángel de la Independencia", 19.426900, -99.167700,
+  "Parque México (Condesa)",   19.411000, -99.167800,
+  "Ciudadela",                 19.427700, -99.146800,
+  "Plaza Garibaldi",           19.439900, -99.139500,
+  "Glorieta Insurgentes",      19.423500, -99.163000,
+  "Parque España (Roma)",      19.416000, -99.170900,
+  "Alameda Central",           19.435500, -99.144000
+)
+
+puntos_cdmx
+```
+
+## Generar las isócronas
+
+ORS en el plan gratuito permite hasta **5 puntos por petición** para isócronas, así que dividimos los 10 puntos en **dos lotes de 5** y combinamos los resultados:
+
+```{r}
+#| label: generar-isocronas-cdmx
+# Construir la lista de coordenadas en formato (lon, lat) que espera ORS
+coords_cdmx <- puntos_cdmx %>%
+  mutate(coord = map2(lon, lat, ~ c(.x, .y))) %>%
+  pull(coord)
+
+# Lote 1: puntos 1 a 5
+iso_lote_1 <- ors_isochrones(
+  locations = coords_cdmx[1:5],
+  api_key   = token,
+  profile   = "driving-car",
+  range     = c(600),
+  output    = "sf"
+)
+
+# Lote 2: puntos 6 a 10
+iso_lote_2 <- ors_isochrones(
+  locations = coords_cdmx[6:10],
+  api_key   = token,
+  profile   = "driving-car",
+  range     = c(600),
+  output    = "sf"
+)
+
+# Unir los dos lotes y asociar el nombre de cada punto
+# st_make_valid() limpia vértices duplicados que a veces trae ORS
+iso_cdmx <- bind_rows(iso_lote_1, iso_lote_2) %>%
+  mutate(nombre = puntos_cdmx$nombre) %>%
+  st_make_valid()
+
+iso_cdmx %>% select(nombre, value, geometry)
+```
+
+## Mapa con las 10 isócronas sobrepuestas
+
+Usamos una paleta categórica y **baja opacidad** para que las intersecciones se perciban como tonos más oscuros, evidenciando las zonas con mayor redundancia de acceso:
+
+```{r}
+#| label: mapa-cdmx
+#| fig-cap: "Isócronas de 10 min en auto desde 10 puntos del centro de CDMX. Las zonas más oscuras corresponden a intersecciones."
+paleta_cdmx <- colorFactor(
+  palette = "Set3",
+  domain  = iso_cdmx$nombre
+)
+
+leaflet(iso_cdmx) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addPolygons(
+    color       = ~paleta_cdmx(nombre),
+    weight      = 1,
+    opacity     = 0.8,
+    fillColor   = ~paleta_cdmx(nombre),
+    fillOpacity = 0.25,
+    label       = ~nombre
+  ) %>%
+  addCircleMarkers(
+    data        = puntos_cdmx,
+    lng         = ~lon,
+    lat         = ~lat,
+    radius      = 4,
+    color       = "black",
+    fillColor   = "white",
+    fillOpacity = 1,
+    weight      = 1.5,
+    label       = ~nombre
+  ) %>%
+  addLegend(
+    position = "bottomright",
+    pal      = paleta_cdmx,
+    values   = ~nombre,
+    title    = "Punto de origen (10 min)"
+  )
+```
+
+## Detectar las intersecciones
+
+Podemos calcular explícitamente **qué pares de isócronas se intersectan** usando `sf::st_intersects()`:
+
+```{r}
+#| label: intersecciones
+intersecciones <- st_intersects(iso_cdmx, sparse = FALSE)
+rownames(intersecciones) <- iso_cdmx$nombre
+colnames(intersecciones) <- iso_cdmx$nombre
+
+# Contar con cuántas otras isócronas se sobrepone cada una
+tibble(
+  punto              = iso_cdmx$nombre,
+  n_intersecciones   = rowSums(intersecciones) - 1  # restamos 1 para excluirse a sí misma
+) %>%
+  arrange(desc(n_intersecciones))
+```
+
+Este análisis es la base de preguntas más sofisticadas: ¿qué porcentaje del centro tiene acceso en 10 min desde al menos 3 de estos puntos?, ¿cuál es el área **única** cubierta por cada punto (sin contar sobreposiciones)?, etc.
+
+# Consideraciones y límites
+
+- **Plan gratuito**: 2,000 peticiones por día y 40 por minuto. Más que suficiente para aprender y prototipar, pero insuficiente para producción masiva.
+- **Tamaño máximo de isócrona**: 60 minutos o 120 km en el plan gratuito.
+- **Cobertura**: depende de la calidad de OSM en la región; zonas rurales pueden tener datos incompletos.
+- **Tráfico**: ORS no considera tráfico en tiempo real (eso requiere servicios comerciales como Google o Mapbox).
+- **Reproducibilidad**: los resultados pueden variar ligeramente si OSM se actualiza.
+
+# Recursos adicionales
+
+- Documentación oficial ORS: <https://openrouteservice.org/dev/#/api-docs>
+- Paquete R `openrouteservice`: <https://github.com/GIScience/openrouteservice-r>
+- Tutorial de OpenStreetMap: <https://learnosm.org/es/>
+- Manual de `sf`: <https://r-spatial.github.io/sf/>
+- Galería de ejemplos leaflet: <https://rstudio.github.io/leaflet/>
+
+# Conclusión
+
+Las isócronas son una herramienta fundamental para cualquier análisis geoespacial que involucre **accesibilidad y tiempos de desplazamiento reales**. Gracias a OpenStreetMap y servicios como OpenRouteService, hoy podemos generarlas desde R de forma gratuita y reproducible, integrándolas en flujos de trabajo de ciencia de datos para informar decisiones en urbanismo, logística, políticas públicas y negocios.

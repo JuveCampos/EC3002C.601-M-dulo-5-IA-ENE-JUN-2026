@@ -1,0 +1,4 @@
+cp,ciudad_ref,lat_ref,lon_ref,estado,ciudad,google_id,store_id,alias,nombre,cp_tienda,town,lat,lon,dist_km
+64000,"Monterrey Centro, NL",25.6714,-100.3094,Nuevo León,Guadalupe,NA,65004458,arenasygravasgpe,Construrama Arenas y Gravas Guadalupe,67190,Guadalupe,25.66,-100.196,11.435878651155559
+06000,"Centro, CDMX",19.4356,-99.1402,Ciudad de México,Azcapotzalco,NA,65715957,planetario,Construrama Planetario,07730,Gustavo A. Madero,19.494,-99.145,6.513253264750252
+62854,"Xochitepec, Morelos",18.7502,-99.2277,Morelos,Mazatepec,NA,65005559,materiales-esthell,Construrama Esthell,62605,Miacatlan,18.777973,-99.301957,8.40598377443589

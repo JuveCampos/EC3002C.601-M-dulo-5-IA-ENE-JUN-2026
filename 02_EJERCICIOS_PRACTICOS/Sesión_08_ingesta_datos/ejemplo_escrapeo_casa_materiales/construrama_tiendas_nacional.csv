@@ -1,0 +1,938 @@
+estado,ciudad,google_id,store_id,alias,nombre,cp_tienda,town,lat,lon
+Aguascalientes,Aguascalientes,NA,65001618,jalpa,Construrama Aceros y Materiales Jalpa,20060,Aguascalientes,21.882,-102.318
+Aguascalientes,Aguascalientes,NA,65011397,eltriunfodelmartillo,Construrama El Triunfo del Martillo,20299,Aguascalientes,21.8499,-102.2524
+Aguascalientes,Aguascalientes,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Aguascalientes,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Aguascalientes,NA,65002138,construramatepeyac,Construrama Tepeyac,20900,Jesús María,22.017,-102.321
+Aguascalientes,Aguascalientes,NA,65119476,promexma-aguascalientes,Promexma Aguascalientes,20200,Aguascalientes,21.854,-102.351
+Aguascalientes,Asientos,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Asientos,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Calvillo,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Calvillo,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Cosío,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,El Llano,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,El Llano,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Jesús María,NA,65001618,jalpa,Construrama Aceros y Materiales Jalpa,20060,Aguascalientes,21.882,-102.318
+Aguascalientes,Jesús María,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Jesús María,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Jesús María,NA,65002138,construramatepeyac,Construrama Tepeyac,20900,Jesús María,22.017,-102.321
+Aguascalientes,Jesús María,NA,65119476,promexma-aguascalientes,Promexma Aguascalientes,20200,Aguascalientes,21.854,-102.351
+Aguascalientes,Pabellón de Arteaga,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Pabellón de Arteaga,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Pabellón de Arteaga,NA,65002138,construramatepeyac,Construrama Tepeyac,20900,Jesús María,22.017,-102.321
+Aguascalientes,Pabellón de Arteaga,NA,65119476,promexma-aguascalientes,Promexma Aguascalientes,20200,Aguascalientes,21.854,-102.351
+Aguascalientes,Rincón de Romos,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Rincón de Romos,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Rincón de Romos,NA,65002138,construramatepeyac,Construrama Tepeyac,20900,Jesús María,22.017,-102.321
+Aguascalientes,Rincón de Romos,NA,65119476,promexma-aguascalientes,Promexma Aguascalientes,20200,Aguascalientes,21.854,-102.351
+Aguascalientes,San Francisco de los Romo,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,San Francisco de los Romo,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,San Francisco de los Romo,NA,65002138,construramatepeyac,Construrama Tepeyac,20900,Jesús María,22.017,-102.321
+Aguascalientes,San Francisco de los Romo,NA,65119476,promexma-aguascalientes,Promexma Aguascalientes,20200,Aguascalientes,21.854,-102.351
+Aguascalientes,San José de Gracia,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,San José de Gracia,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Aguascalientes,Tepezalá,NA,65000345,construramamoran,Construrama Moran,20080,Aguascalientes,21.875,-102.312
+Aguascalientes,Tepezalá,NA,66213795,solidaridad,Construrama Solidaridad,20263,Aguascalientes,21.866723,-102.243087
+Baja California,Mexicali,NA,65566610,promexma-mexicali,Promexma Mexicali,21210,Mexicali,32.663362,-115.429331
+Baja California,Playas de Rosarito,NA,65000995,ferreterialagloria,Construrama Ferretería la Gloria,22645,Tijuana,32.4432698,-117.0162163
+Baja California,Playas de Rosarito,NA,66830941,ferremaster,Construrama Francisco Zarco,22660,Tijuana,32.4600447,-117.0476254
+Baja California,Playas de Rosarito,NA,66461990,lagloriasantafe,Construrama Materiales La Gloria Santa Fe,22660,Tijuana,32.4454199,-117.032133
+Baja California,Tecate,NA,65000995,ferreterialagloria,Construrama Ferretería la Gloria,22645,Tijuana,32.4432698,-117.0162163
+Baja California,Tecate,NA,65003738,delriotecate,Construrama Guadalajara,21400,Tecate,32.5604895,-116.6026333
+Baja California,Tijuana,NA,65137284,lomas,Construrama Ferreteria Lomas,22034,Tijuana,32.498,-116.998
+Baja California,Tijuana,NA,65000995,ferreterialagloria,Construrama Ferretería la Gloria,22645,Tijuana,32.4432698,-117.0162163
+Baja California,Tijuana,NA,66830941,ferremaster,Construrama Francisco Zarco,22660,Tijuana,32.4600447,-117.0476254
+Baja California,Tijuana,NA,66461990,lagloriasantafe,Construrama Materiales La Gloria Santa Fe,22660,Tijuana,32.4454199,-117.032133
+Baja California,Tijuana,NA,65012799,tijuana,Construrama Materiales Tijuana,22406,Tijuana,32.529043,-116.984444
+Baja California Sur,Comondú,NA,65056410,ferreteriareforma,Construrama Ferretería Reforma,23600,Comondu,25.023,-111.663
+Baja California Sur,Los Cabos,NA,66569475,hymca,Construrama HYMCA,23462,Los Cabos,22.909,-109.921
+Baja California Sur,Los Cabos,NA,66555396,materialeszr,Construrama Materiales ZR,23400,San Jose del Cabo,23.124583,-109.722034
+Baja California Sur,San José Viejo,NA,66569475,hymca,Construrama HYMCA,23462,Los Cabos,22.909,-109.921
+Baja California Sur,San José Viejo,NA,66555396,materialeszr,Construrama Materiales ZR,23400,San Jose del Cabo,23.124583,-109.722034
+Baja California Sur,San José del Cabo,NA,66569475,hymca,Construrama HYMCA,23462,Los Cabos,22.909,-109.921
+Baja California Sur,San José del Cabo,NA,66555396,materialeszr,Construrama Materiales ZR,23400,San Jose del Cabo,23.124583,-109.722034
+Campeche,Calkiní,NA,65003509,dapa,Construrama DAPA Comercial,24810,Pomuch,20.138,-90.174
+Campeche,Calkiní,NA,65148248,ferromaterialesmura,Construrama Ferromateriales Mura,24800,Hecelchakan,20.18,-90.133
+Campeche,Calkiní,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Campeche,Campeche,NA,65003509,dapa,Construrama DAPA Comercial,24810,Pomuch,20.138,-90.174
+Campeche,Campeche,NA,65009565,materialescastillo,Construrama Ferretera Castillo,24094,Campeche,19.836,-90.545
+Campeche,Campeche,NA,65148248,ferromaterialesmura,Construrama Ferromateriales Mura,24800,Hecelchakan,20.18,-90.133
+Campeche,Campeche,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Campeche,Champotón,NA,65003509,dapa,Construrama DAPA Comercial,24810,Pomuch,20.138,-90.174
+Campeche,Champotón,NA,65148248,ferromaterialesmura,Construrama Ferromateriales Mura,24800,Hecelchakan,20.18,-90.133
+Campeche,Champotón,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Campeche,Escárcega,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Campeche,Hecelchakán,NA,65003509,dapa,Construrama DAPA Comercial,24810,Pomuch,20.138,-90.174
+Campeche,Hecelchakán,NA,65148248,ferromaterialesmura,Construrama Ferromateriales Mura,24800,Hecelchakan,20.18,-90.133
+Campeche,Hecelchakán,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Campeche,Hopelchén,NA,65003509,dapa,Construrama DAPA Comercial,24810,Pomuch,20.138,-90.174
+Campeche,Hopelchén,NA,65148248,ferromaterialesmura,Construrama Ferromateriales Mura,24800,Hecelchakan,20.18,-90.133
+Campeche,Hopelchén,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Campeche,Tenabo,NA,65003509,dapa,Construrama DAPA Comercial,24810,Pomuch,20.138,-90.174
+Campeche,Tenabo,NA,65148248,ferromaterialesmura,Construrama Ferromateriales Mura,24800,Hecelchakan,20.18,-90.133
+Campeche,Tenabo,NA,65119419,promexmacampeche,Promexma Campeche,24070,Campeche,19.814,-90.508
+Chiapas,Amatenango del Valle,NA,66536582,comart_teopisca,Construrama El Imán Teopisca,29410,Teopisca,16.247,-92.143
+Chiapas,Berriozábal,NA,65148590,acsa,Construrama ACSA,29110,Tuxtla Gutiérrez,16.776,-93.176
+Chiapas,Berriozábal,NA,66503473,materialeseliman,Construrama El Imán Tuxtla,29070,Tuxtla Gutiérrez,16.734,-93.092
+Chiapas,Cacahoatán,NA,66184896,ferregarle,Construrama Ferregarle,30890,Tapachula,15,-92.163
+Chiapas,Chamula,NA,66213407,allende,Construrama Materiales Allende,29280,San Cristóbal de las Casas,16.723,-92.64
+Chiapas,Chamula,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Chanal,NA,66213407,allende,Construrama Materiales Allende,29280,San Cristóbal de las Casas,16.723,-92.64
+Chiapas,Chanal,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Chenalhó,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Chiapa de Corzo,NA,65148590,acsa,Construrama ACSA,29110,Tuxtla Gutiérrez,16.776,-93.176
+Chiapas,Chiapa de Corzo,NA,66503473,materialeseliman,Construrama El Imán Tuxtla,29070,Tuxtla Gutiérrez,16.734,-93.092
+Chiapas,Comitán de Domínguez,NA,66530334,comart_comitan,Construrama El Imán Comitán,30060,Comitán de Domínguez,16.247,-92.143
+Chiapas,Comitán de Domínguez,NA,66430134,materialesferremex,Construrama Ferremex Trinitaria,30160,La Trinitaria,16.132,-92.065
+Chiapas,Frontera Comalapa,NA,66430134,materialesferremex,Construrama Ferremex Trinitaria,30160,La Trinitaria,16.132,-92.065
+Chiapas,Huixtán,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,La Independencia,NA,66530334,comart_comitan,Construrama El Imán Comitán,30060,Comitán de Domínguez,16.247,-92.143
+Chiapas,La Trinitaria,NA,66530334,comart_comitan,Construrama El Imán Comitán,30060,Comitán de Domínguez,16.247,-92.143
+Chiapas,La Trinitaria,NA,66430134,materialesferremex,Construrama Ferremex Trinitaria,30160,La Trinitaria,16.132,-92.065
+Chiapas,Larráinzar,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Las Margaritas,NA,65003016,eliman,Construrama El Imán,30187,Las Margaritas,16.316,-91.982
+Chiapas,Maravilla Tenejapa,NA,66430134,materialesferremex,Construrama Ferremex Trinitaria,30160,La Trinitaria,16.132,-92.065
+Chiapas,Metapa,NA,66184896,ferregarle,Construrama Ferregarle,30890,Tapachula,15,-92.163
+Chiapas,Ocozocoautla de Espinosa,NA,65148590,acsa,Construrama ACSA,29110,Tuxtla Gutiérrez,16.776,-93.176
+Chiapas,Pantelhó,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,San Cristóbal de las Casas,NA,66213407,allende,Construrama Materiales Allende,29280,San Cristóbal de las Casas,16.723,-92.64
+Chiapas,San Cristóbal de las Casas,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,San Fernando,NA,65148590,acsa,Construrama ACSA,29110,Tuxtla Gutiérrez,16.776,-93.176
+Chiapas,San Fernando,NA,66503473,materialeseliman,Construrama El Imán Tuxtla,29070,Tuxtla Gutiérrez,16.734,-93.092
+Chiapas,San Juan Cancuc,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Socoltenango,NA,66430134,materialesferremex,Construrama Ferremex Trinitaria,30160,La Trinitaria,16.132,-92.065
+Chiapas,Suchiapa,NA,66503473,materialeseliman,Construrama El Imán Tuxtla,29070,Tuxtla Gutiérrez,16.734,-93.092
+Chiapas,Tapachula,NA,66184896,ferregarle,Construrama Ferregarle,30890,Tapachula,15,-92.163
+Chiapas,Tenejapa,NA,66213407,allende,Construrama Materiales Allende,29280,San Cristóbal de las Casas,16.723,-92.64
+Chiapas,Tenejapa,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Teopisca,NA,66536582,comart_teopisca,Construrama El Imán Teopisca,29410,Teopisca,16.247,-92.143
+Chiapas,Teopisca,NA,65119438,promexma-sancristobal,Promexma San Cristóbal,29240,San Cristóbal de las Casas,16.739,-92.662
+Chiapas,Tonalá,NA,65148590,acsa,Construrama ACSA,29110,Tuxtla Gutiérrez,16.776,-93.176
+Chiapas,Tuxtla Chico,NA,66184896,ferregarle,Construrama Ferregarle,30890,Tapachula,15,-92.163
+Chiapas,Tuxtla Gutiérrez,NA,65148590,acsa,Construrama ACSA,29110,Tuxtla Gutiérrez,16.776,-93.176
+Chiapas,Tuxtla Gutiérrez,NA,66503473,materialeseliman,Construrama El Imán Tuxtla,29070,Tuxtla Gutiérrez,16.734,-93.092
+Chiapas,Tzimol,NA,66530334,comart_comitan,Construrama El Imán Comitán,30060,Comitán de Domínguez,16.247,-92.143
+Chiapas,Tzimol,NA,66430134,materialesferremex,Construrama Ferremex Trinitaria,30160,La Trinitaria,16.132,-92.065
+Chiapas,Unión Juárez,NA,66184896,ferregarle,Construrama Ferregarle,30890,Tapachula,15,-92.163
+Chiapas,Venustiano Carranza,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Chiapas,Zinacantán,NA,66213407,allende,Construrama Materiales Allende,29280,San Cristóbal de las Casas,16.723,-92.64
+Ciudad de México,Azcapotzalco,NA,65715957,planetario,Construrama Planetario,07730,Gustavo A. Madero,19.494,-99.145
+Ciudad de México,Benito Juárez,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Benito Juárez,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Benito Juárez,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Benito Juárez,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Benito Juárez,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Benito Juárez,NA,65002468,proveedoraurbana,Construrama Proveedora Urbana,01400,Alvaro Obregón,19.371,-99.214
+Ciudad de México,Coyoacán,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Coyoacán,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Coyoacán,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Coyoacán,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Coyoacán,NA,65148645,mexico,Construrama México,04260,Coyoacán,19.339,-99.115
+Ciudad de México,Coyoacán,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Ciudad de México,Cuajimalpa de Morelos,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Cuajimalpa de Morelos,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Cuajimalpa de Morelos,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Cuajimalpa de Morelos,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Cuajimalpa de Morelos,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Cuajimalpa de Morelos,NA,65002468,proveedoraurbana,Construrama Proveedora Urbana,01400,Alvaro Obregón,19.371,-99.214
+Ciudad de México,Cuajimalpa de Morelos,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Ciudad de México,Cuauhtémoc,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Cuauhtémoc,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Cuauhtémoc,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Cuauhtémoc,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Cuauhtémoc,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Cuauhtémoc,NA,65715957,planetario,Construrama Planetario,07730,Gustavo A. Madero,19.494,-99.145
+Ciudad de México,Gustavo A. Madero,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Gustavo A. Madero,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Gustavo A. Madero,NA,65715957,planetario,Construrama Planetario,07730,Gustavo A. Madero,19.494,-99.145
+Ciudad de México,Iztapalapa,NA,66583963,elarbol,Construrama El Árbol,09830,Iztapalapa,19.340844,-99.067548
+Ciudad de México,Iztapalapa,NA,65148645,mexico,Construrama México,04260,Coyoacán,19.339,-99.115
+Ciudad de México,Iztapalapa,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Ciudad de México,La Magdalena Contreras,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,La Magdalena Contreras,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,La Magdalena Contreras,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,La Magdalena Contreras,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Miguel Hidalgo,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Miguel Hidalgo,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Ciudad de México,Miguel Hidalgo,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Miguel Hidalgo,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Miguel Hidalgo,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Miguel Hidalgo,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Miguel Hidalgo,NA,65002468,proveedoraurbana,Construrama Proveedora Urbana,01400,Alvaro Obregón,19.371,-99.214
+Ciudad de México,Miguel Hidalgo,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Ciudad de México,Milpa Alta,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Ciudad de México,Tlalpan,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Tlalpan,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Tlalpan,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Tlalpan,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Tlalpan,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Ciudad de México,Tláhuac,NA,65148645,mexico,Construrama México,04260,Coyoacán,19.339,-99.115
+Ciudad de México,Tláhuac,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Ciudad de México,Venustiano Carranza,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Xochimilco,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Xochimilco,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Ciudad de México,Álvaro Obregón,NA,65265653,1001materiales,Construrama 1001 Materiales,01610,Alvaro Obregón,19.359,-99.22
+Ciudad de México,Álvaro Obregón,NA,65406063,velcolasaguilas,Construrama Grupo Velco Las Águilas,01730,Álvaro Obregón,19.348256,-99.230187
+Ciudad de México,Álvaro Obregón,NA,65406064,velcopresidentes,Construrama Grupo Velco Presidentes,01290,Álvaro Obregón,19.373464,-99.224836
+Ciudad de México,Álvaro Obregón,NA,66980226,velcosantalucia,Construrama Grupo Velco Santa Lucía,01510,Álvaro Obregón,19.3672102,-99.2349831
+Ciudad de México,Álvaro Obregón,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Ciudad de México,Álvaro Obregón,NA,65002468,proveedoraurbana,Construrama Proveedora Urbana,01400,Alvaro Obregón,19.371,-99.214
+Coahuila,Acuña,NA,65000163,cheche-ferreterias,Construrama Corrugados del Centro,26088,Piedras Negras,28.691,-100.558
+Coahuila,Arteaga,NA,65917480,gala,Construrama Materiales y Ferretera Gala,25110,Saltillo,25.465,-101.017
+Coahuila,Francisco I. Madero,NA,65119478,promexmatorreon,Promexma Torreón,27000,Torreón,25.548,-103.421
+Coahuila,Matamoros,NA,65119478,promexmatorreon,Promexma Torreón,27000,Torreón,25.548,-103.421
+Coahuila,Nava,NA,65000163,cheche-ferreterias,Construrama Corrugados del Centro,26088,Piedras Negras,28.691,-100.558
+Coahuila,Piedras Negras,NA,65000163,cheche-ferreterias,Construrama Corrugados del Centro,26088,Piedras Negras,28.691,-100.558
+Coahuila,Ramos Arizpe,NA,65917480,gala,Construrama Materiales y Ferretera Gala,25110,Saltillo,25.465,-101.017
+Coahuila,Saltillo,NA,65917480,gala,Construrama Materiales y Ferretera Gala,25110,Saltillo,25.465,-101.017
+Coahuila,San Pedro,NA,65119478,promexmatorreon,Promexma Torreón,27000,Torreón,25.548,-103.421
+Coahuila,Torreón,NA,66427207,construblock,Construrama Ferretera del Campo Miravalle,35015,Gómez Palacio,25.603,-103.498
+Coahuila,Torreón,NA,65119478,promexmatorreon,Promexma Torreón,27000,Torreón,25.548,-103.421
+Coahuila,Zaragoza,NA,65000163,cheche-ferreterias,Construrama Corrugados del Centro,26088,Piedras Negras,28.691,-100.558
+Colima,Manzanillo,NA,66296529,ferrematerialesalfa,Construrama Ferremateriales Alfa Manzanillo,28219,Manzanillo,19.094,-104.302
+Durango,Durango,NA,66375546,delangelferreterias,Construrama Del Ángel Ferreterías,34230,Durango,24.034,-104.612
+Durango,Durango,NA,65005620,realdelmezquital,Construrama Ferretería y Materiales Real del Mezquital,34162,Durango,24,-104.648
+Durango,Guadalupe Victoria,NA,66375546,delangelferreterias,Construrama Del Ángel Ferreterías,34230,Durango,24.034,-104.612
+Durango,Gómez Palacio,NA,66427207,construblock,Construrama Ferretera del Campo Miravalle,35015,Gómez Palacio,25.603,-103.498
+Durango,Gómez Palacio,NA,65119478,promexmatorreon,Promexma Torreón,27000,Torreón,25.548,-103.421
+Durango,Lerdo,NA,66427207,construblock,Construrama Ferretera del Campo Miravalle,35015,Gómez Palacio,25.603,-103.498
+Durango,Lerdo,NA,65119478,promexmatorreon,Promexma Torreón,27000,Torreón,25.548,-103.421
+Durango,Mezquital,NA,65005620,realdelmezquital,Construrama Ferretería y Materiales Real del Mezquital,34162,Durango,24,-104.648
+Durango,Nuevo Ideal,NA,66375546,delangelferreterias,Construrama Del Ángel Ferreterías,34230,Durango,24.034,-104.612
+Estado de México,10 de Abril Naucalpan de Juárez,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,3 de Mayo Naucalpan de Juárez,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Almoloya de Juárez,NA,65007158,construramayocrisa,Construrama YOCRISA,50940,Almoloya de Juarez,19.297,-99.766
+Estado de México,Almoloya del Río,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Amanalco,NA,65002345,acerosarriaga,Construrama Aceros y Cementos Arriaga,51200,Valle de Bravo,19.224,-100.131
+Estado de México,Amecameca,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Amecameca,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Amecameca,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Estado de México,Atizapán,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Atizapán,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Atizapán de Zaragoza,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,Atizapán de Zaragoza,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Atizapán de Zaragoza,NA,65430866,promexma-atizapan,Promexma Atizapán,52966,Atizapán de Zaragoza,19.555,-99.268
+Estado de México,Atlacomulco,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Atlautla,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Atlautla,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Ayapango,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Ayapango,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Calimaya,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Capulhuac,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Chalco,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Estado de México,Chiautla,NA,66486059,proveedoramatva,Construrama MATVA,56070,Tepetlaoxtoc,19.574,-98.819
+Estado de México,Chiconcuac,NA,66486059,proveedoramatva,Construrama MATVA,56070,Tepetlaoxtoc,19.574,-98.819
+Estado de México,Chiconcuac,NA,65119422,promexma-tezoyuca,Promexma Tezoyuca,62765,Emiliano Zapata,18.818669,-99.191072
+Estado de México,"Ciudad Satélite, Naucalpan de Juárez",NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,"Ciudad Satélite, Naucalpan de Juárez",NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Coacalco de Berriozábal,NA,66481095,gpodelnorte,Construrama Grupo del Norte,55715,Coacalco,19.634,-99.09
+Estado de México,Coacalco de Berriozábal - 55715,NA,66481095,gpodelnorte,Construrama Grupo del Norte,55715,Coacalco,19.634,-99.09
+Estado de México,Coatepec Harinas,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Cocotitlán,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Cuautitlán-Izcalli,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Cuautitlán-Izcalli,NA,65430866,promexma-atizapan,Promexma Atizapán,52966,Atizapán de Zaragoza,19.555,-99.268
+Estado de México,Donato Guerra,NA,65002345,acerosarriaga,Construrama Aceros y Cementos Arriaga,51200,Valle de Bravo,19.224,-100.131
+Estado de México,Ecatepec de Morelos,NA,66481095,gpodelnorte,Construrama Grupo del Norte,55715,Coacalco,19.634,-99.09
+Estado de México,Ecatepec de Morelos,NA,65565867,jarorobert,Construrama Jarorobert,55120,Ecatepec de Morelos,19.547,-99.026
+Estado de México,Ecatepec de Morelos,NA,65119440,promexmarecursoshidraulicos,Promexma Recursos Hidráulicos,55024,Estado de México,19.619,-99.044
+Estado de México,Ecatzingo,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Ecatzingo,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,El Molinito Naucalpan de Juárez,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,El Molinito Naucalpan de Juárez,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Huixquilucan,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,Huixquilucan,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Estado de México,Huixquilucan,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Ixtapaluca,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Estado de México,Ixtapan de la Sal,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Ixtapan de la Sal,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Joquicingo,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Juchitepec,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Juchitepec,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Lerma,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,Lerma,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Malinalco,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Metepec,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Metepec,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Metepec,NA,65006969,sami,Construrama SAMI,50020,Toluca,19.316,-99.653
+Estado de México,Mexicaltzingo,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Naucalpan de Juárez,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,Naucalpan de Juárez,NA,65063027,laplazadelaconstruccion,Construrama La Plaza de la Construcción,11860,Miguel Hidalgo,19.402,-99.201
+Estado de México,Naucalpan de Juárez,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,Naucalpan de Juárez,NA,65430866,promexma-atizapan,Promexma Atizapán,52966,Atizapán de Zaragoza,19.555,-99.268
+Estado de México,Nextlalpan,NA,65430866,promexma-atizapan,Promexma Atizapán,52966,Atizapán de Zaragoza,19.555,-99.268
+Estado de México,Nezahualcóyotl,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Estado de México,Nicolás Romero,NA,65430866,promexma-atizapan,Promexma Atizapán,52966,Atizapán de Zaragoza,19.555,-99.268
+Estado de México,Ocoyoacac,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Ocuilan,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Otzolotepec,NA,66331525,elcastano,Construrama Aceros y Materiales El Castaño,52080,Otzolotepec,19.421,-99.562
+Estado de México,Otzolotepec,NA,65002317,materialesreforma,Construrama Reforma,50850,Temoaya,19.464,-99.595
+Estado de México,Ozumba,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Ozumba,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Ozumba,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Estado de México,Papalotla,NA,66486059,proveedoramatva,Construrama MATVA,56070,Tepetlaoxtoc,19.574,-98.819
+Estado de México,Polotitlán,NA,65002307,losgigantes,Construrama Los Gigantes,50400,Temascalcingo,19.924,-100.007
+Estado de México,Rayón,NA,66331526,elcastanotenango,Construrama El Castaño Tenango,52300,Tenango del Valle,19.101,-99.587
+Estado de México,San Antonio la Isla,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,San José del Rincón,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,"San Juan Totoltepec, Naucalpan de Juárez",NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,"San Juan Totoltepec, Naucalpan de Juárez",NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,San Mateo Atenco,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,San Mateo Atenco,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Sultepec,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Tecámac,NA,65119440,promexmarecursoshidraulicos,Promexma Recursos Hidráulicos,55024,Estado de México,19.619,-99.044
+Estado de México,Temamatla,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Temascalcingo,NA,66331557,castanoeloro,Construrama Castaño El Oro,50600,El Oro,19.10063,-99.586848
+Estado de México,Temascalcingo,NA,65002307,losgigantes,Construrama Los Gigantes,50400,Temascalcingo,19.924,-100.007
+Estado de México,Temoaya,NA,66331525,elcastano,Construrama Aceros y Materiales El Castaño,52080,Otzolotepec,19.421,-99.562
+Estado de México,Tenancingo,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Tenancingo,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Tenancingo,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Tenango del Aire,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Tenango del Aire,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Tenango del Valle,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Tepetlaoxtoc,NA,66486059,proveedoramatva,Construrama MATVA,56070,Tepetlaoxtoc,19.574,-98.819
+Estado de México,Tepetlixpa,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Tepetlixpa,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Texcaltitlán,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Texcoco,NA,66486059,proveedoramatva,Construrama MATVA,56070,Tepetlaoxtoc,19.574,-98.819
+Estado de México,Tianguistenco,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Tlalmanalco,NA,65002600,lafortaleza,Construrama La Fortaleza,56800,Ozumba de Alzate,19.035053,-98.798131
+Estado de México,Tlalmanalco,NA,65005713,materialestepetlixpa,Construrama Materiales Tepetlixpa,56880,Tepetlixpa,19.026,-98.818
+Estado de México,Tlalnepantla de Baz,NA,65715957,planetario,Construrama Planetario,07730,Gustavo A. Madero,19.494,-99.145
+Estado de México,Tlalnepantla de Baz,NA,65430866,promexma-atizapan,Promexma Atizapán,52966,Atizapán de Zaragoza,19.555,-99.268
+Estado de México,Toluca,NA,66331525,elcastano,Construrama Aceros y Materiales El Castaño,52080,Otzolotepec,19.421,-99.562
+Estado de México,Toluca,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Toluca,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Toluca,NA,65006969,sami,Construrama SAMI,50020,Toluca,19.316,-99.653
+Estado de México,Toluca,NA,65007158,construramayocrisa,Construrama YOCRISA,50940,Almoloya de Juarez,19.297,-99.766
+Estado de México,Tultepec,NA,66481095,gpodelnorte,Construrama Grupo del Norte,55715,Coacalco,19.634,-99.09
+Estado de México,Tultitlan,NA,66481095,gpodelnorte,Construrama Grupo del Norte,55715,Coacalco,19.634,-99.09
+Estado de México,Valle de Bravo,NA,65002345,acerosarriaga,Construrama Aceros y Cementos Arriaga,51200,Valle de Bravo,19.224,-100.131
+Estado de México,Valle de Chalco Solidaridad,NA,66349714,sanjose,Construrama San José,13100,Tláhuac,19.305,-98.97
+Estado de México,Villa Guerrero,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Villa Guerrero,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,Xonacatlán,NA,66331525,elcastano,Construrama Aceros y Materiales El Castaño,52080,Otzolotepec,19.421,-99.562
+Estado de México,Xonacatlán,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Xonacatlán,NA,65002317,materialesreforma,Construrama Reforma,50850,Temoaya,19.464,-99.595
+Estado de México,Zinacantepec,NA,66331454,amscsancarlos,Construrama AMSC San Carlos,50110,Toluca de Lerdo,19.257,-99.688
+Estado de México,Zinacantepec,NA,65010308,materiales-lerma,Construrama Materiales Lerma,52000,Lerma,19.285,-99.51
+Estado de México,Zinacantepec,NA,65007158,construramayocrisa,Construrama YOCRISA,50940,Almoloya de Juarez,19.297,-99.766
+Estado de México,Zumpahuacán,NA,65427515,grupoarira,Construrama Grupo Comercial ARIRA,52400,Tenancingo,18.962,-99.583
+Estado de México,ciudad brisa,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,ciudad brisa,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,izcalli del bosque,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,izcalli del bosque,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,lomas verdes,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,lomas verdes,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,paseos del bosque,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,paseos del bosque,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,san mateo naucalpan de juarez,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,san mateo naucalpan de juarez,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Estado de México,vista del valle,NA,65751145,construramaelmirador,Construrama El Mirador,52793,Huixquilucan,19.4,-99.326
+Estado de México,vista del valle,NA,65174589,sanjuan,Construrama San Juan,53270,Naucalpan,19.473,-99.256
+Guanajuato,Cortazar,NA,65002493,angel-arredondo,Construrama Materiales Angel Arredondo,36700,Salamanca,20.575,-101.193
+Guanajuato,Salamanca,NA,65002493,angel-arredondo,Construrama Materiales Angel Arredondo,36700,Salamanca,20.575,-101.193
+Guanajuato,San Miguel de Allende,NA,66421174,materiales-corralejo,Construrama Materiales Corralejo,37884,San Miguel de Allende,20.892,-100.653
+Guerrero,Acapulco de Juárez,NA,65070659,construramacasamorelos,Construrama Casa Morelos,39530,Acapulco de Juárez,16.871963,-99.904787
+Guerrero,Acapulco de Juárez,NA,65726452,grumaga,Construrama Grupo Maya Galeana,40930,Atoyac de Alvarez,17.214,-100.433
+Guerrero,Acapulco de Juárez,NA,66509633,promacsa_blvd,Construrama PROMACSA Blvd,39907,Acapulco de Juárez,16.788,-99.797389
+Guerrero,Acatepec,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Alcozauca de Guerrero,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Alpoyeca,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Atoyac de Álvarez,NA,65726452,grumaga,Construrama Grupo Maya Galeana,40930,Atoyac de Alvarez,17.214,-100.433
+Guerrero,Ayutla de los Libres,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Benito Juárez,NA,65726452,grumaga,Construrama Grupo Maya Galeana,40930,Atoyac de Alvarez,17.214,-100.433
+Guerrero,Chilpancingo de los Bravo,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Chilpancingo de los Bravo,NA,65147807,materialeslaplaza,Construrama Materiales La Plaza,39170,Tixtla de Guerrero,17.5705,-99.4026
+Guerrero,Cochoapa el Grande,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Copanatoyac,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Coyuca de Benítez,NA,65726452,grumaga,Construrama Grupo Maya Galeana,40930,Atoyac de Alvarez,17.214,-100.433
+Guerrero,Coyuca de Catalán,NA,65147787,abastecedoraleon,Construrama Abastecedora de Aceros y Cementos León,40660,Ciudad Altamirano,18.344,-100.654
+Guerrero,Cualác,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Cutzamala de Pinzón,NA,65147787,abastecedoraleon,Construrama Abastecedora de Aceros y Cementos León,40660,Ciudad Altamirano,18.344,-100.654
+Guerrero,Eduardo Neri,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,General Heliodoro Castillo,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Huamuxtitlán,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Juan R. Escudero,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Leonardo Bravo,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Malinaltepec,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Metlatónoc,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Olinalá,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Pungarabato,NA,65147787,abastecedoraleon,Construrama Abastecedora de Aceros y Cementos León,40660,Ciudad Altamirano,18.344,-100.654
+Guerrero,Quechultenango,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Tecoanapa,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Tixtla de Guerrero,NA,66474636,comercializadora-joroca,Construrama Comercializadora Joroca,39036,Chilpancingo,17.556,-99.51
+Guerrero,Tixtla de Guerrero,NA,65147807,materialeslaplaza,Construrama Materiales La Plaza,39170,Tixtla de Guerrero,17.5705,-99.4026
+Guerrero,Tlalixtaquilla de Maldonado,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Tlapa de Comonfort,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Tlapa de Comonfort,NA,65007956,sannicolas,Construrama Materiales San Nicolas,41304,Tlapa de Comonfort,17.538652,-98.591345
+Guerrero,Técpan de Galeana,NA,65726452,grumaga,Construrama Grupo Maya Galeana,40930,Atoyac de Alvarez,17.214,-100.433
+Guerrero,Xalpatláhuac,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Guerrero,Zapotitlán Tablas,NA,65004209,elconstructor2002,Construrama Materiales El Constructor,41304,Tlapa de Comonfort,17.541,-98.61
+Hidalgo,Acaxochitlán,NA,65024651,mathidalgo,Construrama Materiales Hidalgo,43720,Acaxochitlán,20.153,-98.209
+Hidalgo,Actopan,NA,65154778,dimafesat,Construrama DIMAFESAT,42160,San Agustín Tlaxiaca,20.134,-98.884
+Hidalgo,Almoloya,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Apan,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Emiliano Zapata,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Huejutla de Reyes,NA,65003953,elpreciounicocentro,Construrama El Precio único de Huejutla,43000,Huejutla de Reyes,21.139,-98.42
+Hidalgo,Mineral de la Reforma,NA,66197232,bicentenario,Construrama Bicentenario,42184,Mineral De La Reforma,20.103,-98.719
+Hidalgo,Pachuca de Soto,NA,66197232,bicentenario,Construrama Bicentenario,42184,Mineral De La Reforma,20.103,-98.719
+Hidalgo,Pachuca de Soto,NA,65154778,dimafesat,Construrama DIMAFESAT,42160,San Agustín Tlaxiaca,20.134,-98.884
+Hidalgo,Pachuca de Soto,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,San Agustín Tlaxiaca,NA,65154778,dimafesat,Construrama DIMAFESAT,42160,San Agustín Tlaxiaca,20.134,-98.884
+Hidalgo,Singuilucan,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Tepeapulco,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Tlanalapa,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Tulancingo de Bravo,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Hidalgo,Tulancingo de Bravo,NA,65024651,mathidalgo,Construrama Materiales Hidalgo,43720,Acaxochitlán,20.153,-98.209
+Hidalgo,Zempoala,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Jalisco,Arandas,NA,66410883,materialespeque,Construrama Materiales Plascencia Peque,47620,Tepatitlan de Morelos,20.822,-102.782
+Jalisco,Atotonilco el Alto,NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Jalisco,Autlán de Navarro,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Autlán de Navarro,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Ayotlán,NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Jalisco,Ayutla,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Casimiro Castillo,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Cuautla,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Degollado,NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Jalisco,Ejutla,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Ejutla,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,El Grullo,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,El Grullo,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,El Limón,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,El Limón,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Guadalajara,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Jesús María,NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Jalisco,La Huerta,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Puerto Vallarta,NA,65119426,promexmavallarta,Promexma Vallarta,48291,Puerto Vallarta,20.696,-105.239
+Jalisco,San Gabriel,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,San Gabriel,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Tecolotlán,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Tepatitlán de Morelos,NA,66410883,materialespeque,Construrama Materiales Plascencia Peque,47620,Tepatitlan de Morelos,20.822,-102.782
+Jalisco,Tolimán,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Tolimán,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Tonaya,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Tonaya,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Tuxcacuesco,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Tuxcacuesco,NA,66171065,ferrematerialeselroble,Construrama Ferremateriales el Roble,48740,El Grullo,19.8,-104.222
+Jalisco,Unión de Tula,NA,65148605,atc,Construrama ATC,48740,El Grullo,19.805,-104.211
+Jalisco,Valle de Guadalupe,NA,66410883,materialespeque,Construrama Materiales Plascencia Peque,47620,Tepatitlan de Morelos,20.822,-102.782
+Michoacán,Acuitzio,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Charo,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Chilchota,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Chucándiro,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Coeneo,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Copándaro,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Cuitzeo,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Cuitzeo,NA,65011940,materialeslacruz,Construrama La Cruz,58880,Tarimbaro,19.771,-101.141
+Michoacán,Ecuandureo,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Erongarícuaro,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Gabriel Zamora,NA,65001108,ledesma,Construrama Ledesma,60050,Uruapan,19.418,-102.054
+Michoacán,Huaniqueo,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Huiramba,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Indaparapeo,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Ixtlán,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Jacona,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,La Piedad,NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Michoacán,La Piedad de Cabadas,NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Michoacán,Lagunillas,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Los Reyes,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Madero,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Morelia,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Morelia,NA,65147486,ferremateriales-arco,Construrama Ferremateriales ARCO,58147,Morelia,19.706,-101.242
+Michoacán,Morelia,NA,65011940,materialeslacruz,Construrama La Cruz,58880,Tarimbaro,19.771,-101.141
+Michoacán,Nuevo Parangaricutiro,NA,65001108,ledesma,Construrama Ledesma,60050,Uruapan,19.418,-102.054
+Michoacán,Paracho,NA,65001108,ledesma,Construrama Ledesma,60050,Uruapan,19.418,-102.054
+Michoacán,Quiroga,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,"Sta Fé, La Piedad",NA,65002779,materialesquezada,Construrama Materiales Quezada,47980,Degollado,204.465,-102.132
+Michoacán,Tangamandapio,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Tangancícuaro,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Taretan,NA,65001108,ledesma,Construrama Ledesma,60050,Uruapan,19.418,-102.054
+Michoacán,Tarímbaro,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Tarímbaro,NA,65147486,ferremateriales-arco,Construrama Ferremateriales ARCO,58147,Morelia,19.706,-101.242
+Michoacán,Tingambato,NA,65001108,ledesma,Construrama Ledesma,60050,Uruapan,19.418,-102.054
+Michoacán,Tzintzuntzan,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Tzitzio,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Uruapan,NA,65001108,ledesma,Construrama Ledesma,60050,Uruapan,19.418,-102.054
+Michoacán,Vista Hermosa,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Zamora,NA,65001694,valdes-de-zamora,Construrama Casa Valdes de Zamora Michoacán,59610,Zamora,19.997,-102.284
+Michoacán,Álvaro Obregón,NA,65008165,construmundo,Construrama Construmundo de Morelia,58341,Morelia,19.669,-101.223
+Michoacán,Álvaro Obregón,NA,65011940,materialeslacruz,Construrama La Cruz,58880,Tarimbaro,19.771,-101.141
+Morelos,Cuautla,NA,66083831,cuauhtemoccocoyoc,Construrama Cocoyoc,62736,Yatepec,18.881321,-98.98054
+Morelos,Cuernavaca,NA,65130823,materiales-viccer,Construrama Materiales Viccer,62100,Cuernavaca,18.977043,-99.253555
+Morelos,Emiliano Zapata,NA,65119422,promexma-tezoyuca,Promexma Tezoyuca,62765,Emiliano Zapata,18.818669,-99.191072
+Morelos,Huitzilac,NA,65130823,materiales-viccer,Construrama Materiales Viccer,62100,Cuernavaca,18.977043,-99.253555
+Morelos,Jiutepec,NA,65130823,materiales-viccer,Construrama Materiales Viccer,62100,Cuernavaca,18.977043,-99.253555
+Morelos,Jojutla,NA,65003594,juarezconstruccion,Construrama Juárez Construcción,62980,Tlaquiltenango,18.644,-99.157
+Morelos,Mazatepec,NA,65005559,materiales-esthell,Construrama Esthell,62605,Miacatlan,18.777973,-99.301957
+Morelos,Miacatlán,NA,65005559,materiales-esthell,Construrama Esthell,62605,Miacatlan,18.777973,-99.301957
+Morelos,Temixco,NA,65130823,materiales-viccer,Construrama Materiales Viccer,62100,Cuernavaca,18.977043,-99.253555
+Morelos,Temixco,NA,65119422,promexma-tezoyuca,Promexma Tezoyuca,62765,Emiliano Zapata,18.818669,-99.191072
+Morelos,Temoac,NA,65001814,casa-cerezo,Construrama Casa Cerezo Zacualpan,62890,Zacualpan de Amilpas,18.7841,-98.7669
+Morelos,Tepoztlán,NA,65130823,materiales-viccer,Construrama Materiales Viccer,62100,Cuernavaca,18.977043,-99.253555
+Morelos,Tlaltizapán,NA,65003594,juarezconstruccion,Construrama Juárez Construcción,62980,Tlaquiltenango,18.644,-99.157
+Morelos,Tlaquiltenango,NA,65003594,juarezconstruccion,Construrama Juárez Construcción,62980,Tlaquiltenango,18.644,-99.157
+Morelos,Xochitepec,NA,65005559,materiales-esthell,Construrama Esthell,62605,Miacatlan,18.777973,-99.301957
+Morelos,Xochitepec,NA,65119422,promexma-tezoyuca,Promexma Tezoyuca,62765,Emiliano Zapata,18.818669,-99.191072
+Morelos,Yautepec,NA,66083831,cuauhtemoccocoyoc,Construrama Cocoyoc,62736,Yatepec,18.881321,-98.98054
+Morelos,Yautepec Mor,NA,66083831,cuauhtemoccocoyoc,Construrama Cocoyoc,62736,Yatepec,18.881321,-98.98054
+Morelos,Zacatepec,NA,65003594,juarezconstruccion,Construrama Juárez Construcción,62980,Tlaquiltenango,18.644,-99.157
+Morelos,Zacualpan de Amilpas,NA,65001814,casa-cerezo,Construrama Casa Cerezo Zacualpan,62890,Zacualpan de Amilpas,18.7841,-98.7669
+Nayarit,Bahía de Banderas,NA,65119426,promexmavallarta,Promexma Vallarta,48291,Puerto Vallarta,20.696,-105.239
+Nayarit,San Blas,NA,65706089,construnay,Construrama Grupo CONSTRUNAY,63173,Tepic,21.48,-104.848
+Nayarit,San Blas,NA,65001267,viguetayfierro,Construrama Vigueta y Fierro del Nayar,63000,Tepic,21.503,-104.887
+Nayarit,Santa María del Oro,NA,65001267,viguetayfierro,Construrama Vigueta y Fierro del Nayar,63000,Tepic,21.503,-104.887
+Nayarit,Tepic,NA,65706089,construnay,Construrama Grupo CONSTRUNAY,63173,Tepic,21.48,-104.848
+Nayarit,Tepic,NA,65001267,viguetayfierro,Construrama Vigueta y Fierro del Nayar,63000,Tepic,21.503,-104.887
+Nayarit,Xalisco,NA,65706089,construnay,Construrama Grupo CONSTRUNAY,63173,Tepic,21.48,-104.848
+Nayarit,Xalisco,NA,65001267,viguetayfierro,Construrama Vigueta y Fierro del Nayar,63000,Tepic,21.503,-104.887
+Nuevo León,Dr. Arroyo,NA,65005797,materialesyforrajeraobregon,Construrama Materiales y Forrajera Obregon,78740,Matehuala,23.65,-100.623
+Nuevo León,Guadalupe,NA,65004458,arenasygravasgpe,Construrama Arenas y Gravas Guadalupe,67190,Guadalupe,25.66,-100.196
+Nuevo León,Juárez,NA,65004458,arenasygravasgpe,Construrama Arenas y Gravas Guadalupe,67190,Guadalupe,25.66,-100.196
+Oaxaca,Ciudad Ixtepec,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Ciénega de Zimatlán,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Ciénega de Zimatlán,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Cuilápam de Guerrero,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Cuilápam de Guerrero,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Cuilápam de Guerrero,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,El Espinal,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Heroica Ciudad de Juchitán de Zaragoza,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Loma Bonita,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Oaxaca,Magdalena Apasco,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Magdalena Apasco,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Magdalena Apasco,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Matías Romero Avendaño,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Nazareno Etla,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Nazareno Etla,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Oaxaca de Juárez,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Oaxaca de Juárez,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Oaxaca de Juárez,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Ocotlán de Morelos,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Salina Cruz,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,San Agustín Etla,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Agustín Yatareni,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Agustín de las Juntas,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Andrés Ixtlahuaca,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Antonio de la Cal,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Bartolo Coyotepec,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Dionisio del Mar,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,San Felipe Tejalápam,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,San Felipe Tejalápam,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,San Francisco Ixhuatán,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,San Francisco Lachigoló,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Francisco Telixtlahuaca,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Jacinto Amilpas,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Jacinto Amilpas,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,San Jacinto Amilpas,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,San José Chiltepec,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Oaxaca,San Juan Bautista Tuxtepec,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Oaxaca,San Juan Bautista Tuxtepec,NA,66210235,juquilita,Construrama Juquilita,68373,San Juan Bautista Tuxtepec,18.088483,-96.14605
+Oaxaca,San Juan Bautista Valle Nacional,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Oaxaca,San Juan Quiahije,NA,65302182,materialesyuma,Construrama Materiales Yuma,71900,Juquila,16.235,-97.286
+Oaxaca,San Lorenzo Cacaotepec,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Lorenzo Cacaotepec,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,San Lorenzo Cacaotepec,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,San Martín Tilcajete,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Miguel Panixtlahuaca,NA,65302182,materialesyuma,Construrama Materiales Yuma,71900,Juquila,16.235,-97.286
+Oaxaca,San Pablo Etla,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Pablo Huitzo,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Pedro Comitancillo,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,San Pedro Ixtlahuaca,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,San Pedro Tapanatepec,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,San Sebastián Tutla,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Santa Catarina Juquila,NA,65302182,materialesyuma,Construrama Materiales Yuma,71900,Juquila,16.235,-97.286
+Oaxaca,Santa Cruz Xoxocotlán,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Santa Cruz Xoxocotlán,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Santa Cruz Xoxocotlán,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Santa Lucía del Camino,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Santa María Atzompa,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Santa María Atzompa,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Santa María Atzompa,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Santa María Jacatepec,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Oaxaca,Santa María Jalapa del Marqués,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Santa María Yolotepec,NA,65302182,materialesyuma,Construrama Materiales Yuma,71900,Juquila,16.235,-97.286
+Oaxaca,Santa María del Tule,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Santiago Laollaga,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Santiago Niltepec,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Santiago Yaitepec,NA,65302182,materialesyuma,Construrama Materiales Yuma,71900,Juquila,16.235,-97.286
+Oaxaca,Santo Domingo Ingenio,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Santo Domingo Tehuantepec,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Santo Domingo Zanatepec,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Soledad Etla,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Soledad Etla,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Tlacolula de Matamoros,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Tlalixtac de Cabrera,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Unión Hidalgo,NA,65119442,promexma-juchitan,Promexma Juchitán,70000,Juchitán de Zaragoza,16.435,-95.016
+Oaxaca,Villa de Etla,NA,65119452,promexma-oaxaca,Promexma Oaxaca,68285,San Jacinto Amilpas,17.099,-96.758
+Oaxaca,Villa de Etla,NA,65119475,promexma-viguera,Promexma Viguera,68274,Oaxaca De Juárez,17.126,-96.76
+Oaxaca,Villa de Zaachila,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Zimatlán de Álvarez,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Oaxaca,Ánimas Trujano,NA,65658807,sanjacinto,Construrama Materiales San Jacinto,68285,Oaxaca De Juárez,17.095,-96.76
+Puebla,Amozoc,NA,65008244,montesinos,Construrama Montesinos,75202,Tepeaca,18.998,-97.931
+Puebla,Atlixco,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Atoyatempan,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Chiconcuautla,NA,65011138,bodegademateriales,Construrama Bodega de Materiales,73165,Huauchinango,20.1948,-97.9787
+Puebla,Coronango,NA,66583892,gatza,Construrama GATZA,72760,San Pedro Cholula,19.073,-98.318
+Puebla,Cuapiaxtla de Madero,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Cuautlancingo,NA,66583892,gatza,Construrama GATZA,72760,San Pedro Cholula,19.073,-98.318
+Puebla,Huaquechula,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Huauchinango,NA,65011138,bodegademateriales,Construrama Bodega de Materiales,73165,Huauchinango,20.1948,-97.9787
+Puebla,Huejotzingo,NA,66583892,gatza,Construrama GATZA,72760,San Pedro Cholula,19.073,-98.318
+Puebla,Huejotzingo,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,Huitziltepec,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Juan Galindo,NA,65011138,bodegademateriales,Construrama Bodega de Materiales,73165,Huauchinango,20.1948,-97.9787
+Puebla,Puebla,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Puebla,NA,66583892,gatza,Construrama GATZA,72760,San Pedro Cholula,19.073,-98.318
+Puebla,San Andrés Cholula,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,San Andrés Cholula,NA,66583892,gatza,Construrama GATZA,72760,San Pedro Cholula,19.073,-98.318
+Puebla,San Diego la Mesa Tochimiltzingo,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,San Felipe Teotlalcingo,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,San Felipe Teotlalcingo,NA,65119429,promexma-sanmartin,Promexma San Martín,74000,San Martin Texmelucan,19.289,-98.444
+Puebla,San Jerónimo Tecuanipan,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,San Martín Texmelucan,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,San Martín Texmelucan,NA,65119429,promexma-sanmartin,Promexma San Martín,74000,San Martin Texmelucan,19.289,-98.444
+Puebla,San Matías Tlalancaleca,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,San Matías Tlalancaleca,NA,65119429,promexma-sanmartin,Promexma San Martín,74000,San Martin Texmelucan,19.289,-98.444
+Puebla,San Miguel Xoxtla,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,San Miguel Xoxtla,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,San Nicolás de los Ranchos,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,San Pedro Cholula,NA,66583892,gatza,Construrama GATZA,72760,San Pedro Cholula,19.073,-98.318
+Puebla,San Pedro Cholula,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,San Salvador Huixcolotla,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,San Salvador el Verde,NA,65014212,materialesjyg,Construrama Proveedora de Materiales JYG,74125,San Martin Texmelucan,19.275,-98.453
+Puebla,San Salvador el Verde,NA,65119429,promexma-sanmartin,Promexma San Martín,74000,San Martin Texmelucan,19.289,-98.444
+Puebla,Santa Isabel Cholula,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Tecali de Herrera,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Tecali de Herrera,NA,65008244,montesinos,Construrama Montesinos,75202,Tepeaca,18.998,-97.931
+Puebla,Tecamachalco,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Tepeaca,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Tepeaca,NA,65008244,montesinos,Construrama Montesinos,75202,Tepeaca,18.998,-97.931
+Puebla,Tepeojuma,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Tepexco,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Tepeyahualco de Cuauhtémoc,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Tianguismanalco,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Tilapa,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Tlaltenango,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Puebla,Tlanepantla,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Tlaola,NA,65011138,bodegademateriales,Construrama Bodega de Materiales,73165,Huauchinango,20.1948,-97.9787
+Puebla,Tlapacoya,NA,65011138,bodegademateriales,Construrama Bodega de Materiales,73165,Huauchinango,20.1948,-97.9787
+Puebla,Tochtepec,NA,65148619,materialessanchez,Construrama Materiales Sánchez,75610,Tochtepec,18.838856,-97.81948
+Puebla,Xicotepec,NA,65011138,bodegademateriales,Construrama Bodega de Materiales,73165,Huauchinango,20.1948,-97.9787
+Puebla,Xochiltepec,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Querétaro,Amealco de Bonfil,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Querétaro,Arroyo Seco,NA,66853342,materialesconca,Construrama Ferretería y Materiales Conca,76410,Arroyo Seco,21.449,-99.633
+Querétaro,Cadereyta de Montes,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Querétaro,Colón,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Querétaro,Corregidora,NA,65003424,materiales-rico,Construrama Materiales Rico,76220,Querétaro,20.741,-100.447
+Querétaro,El Marqués,NA,66978808,velcoqro,Construrama Grupo Velco Querétaro,76146,Querétaro,20.649687,-100.344055
+Querétaro,El Marqués,NA,65003424,materiales-rico,Construrama Materiales Rico,76220,Querétaro,20.741,-100.447
+Querétaro,Jalpan de Serra,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Querétaro,Peñamiller,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Querétaro,Querétaro,NA,66978808,velcoqro,Construrama Grupo Velco Querétaro,76146,Querétaro,20.649687,-100.344055
+Querétaro,Querétaro,NA,65003424,materiales-rico,Construrama Materiales Rico,76220,Querétaro,20.741,-100.447
+Querétaro,San Juan del Río,NA,65004818,loma-linda,Construrama Construmateriales Loma Linda,76803,San Juan del Río,20.403,-100.03
+Querétaro,San Juan del Río,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Querétaro,Tequisquiapan,NA,66341111,materialesciervo,Construrama Materiales El Ciervo,76650,Ezequiel Montes,20.655,-99.902
+Quintana Roo,Lázaro Cárdenas,NA,66253432,marez,Construrama Marez,77716,Solidaridad,20.626,-87.101
+Quintana Roo,Puerto Morelos,NA,66253432,marez,Construrama Marez,77716,Solidaridad,20.626,-87.101
+Quintana Roo,Puerto Morelos,NA,65119424,promexma-playa,Promexma Playa del Carmen,77710,Solidaridad,20.701,-87.029
+Quintana Roo,Solidaridad,NA,66253432,marez,Construrama Marez,77716,Solidaridad,20.626,-87.101
+Quintana Roo,Solidaridad,NA,65119424,promexma-playa,Promexma Playa del Carmen,77710,Solidaridad,20.701,-87.029
+Quintana Roo,Tulum,NA,66253432,marez,Construrama Marez,77716,Solidaridad,20.626,-87.101
+Quintana Roo,Tulum,NA,65119424,promexma-playa,Promexma Playa del Carmen,77710,Solidaridad,20.701,-87.029
+San Luis Potosí,Ahualulco,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Ahualulco,NA,65119468,promexma-sanluispotosi,Promexma San Luis Potosí,78218,San Luis Potosí,22.134,-101.034
+San Luis Potosí,Cedral,NA,65005797,materialesyforrajeraobregon,Construrama Materiales y Forrajera Obregon,78740,Matehuala,23.65,-100.623
+San Luis Potosí,Cerritos,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Ciudad Fernández,NA,65301235,materialesortiz,Construrama Materiales Ortiz,79660,Ciudad Fernández,21.939,-100.043
+San Luis Potosí,Matehuala,NA,65005797,materialesyforrajeraobregon,Construrama Materiales y Forrajera Obregon,78740,Matehuala,23.65,-100.623
+San Luis Potosí,Mexquitic de Carmona,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Rioverde,NA,65301235,materialesortiz,Construrama Materiales Ortiz,79660,Ciudad Fernández,21.939,-100.043
+San Luis Potosí,Salinas,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,San Luis Potosí,NA,65000609,materialescuellar,Construrama Cuellar Materiales para Construcción,78220,San Luis Potosí,22.17,-101.003
+San Luis Potosí,San Luis Potosí,NA,65003391,mmrslp,Construrama Maderas y Materiales de Río Verde,78390,San Luis Potosí,22.151,-100.954
+San Luis Potosí,San Luis Potosí,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,San Luis Potosí,NA,65119468,promexma-sanluispotosi,Promexma San Luis Potosí,78218,San Luis Potosí,22.134,-101.034
+San Luis Potosí,San Nicolás Tolentino,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Santa María del Río,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Santa María del Río,NA,65119468,promexma-sanluispotosi,Promexma San Luis Potosí,78218,San Luis Potosí,22.134,-101.034
+San Luis Potosí,Santo Domingo,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Soledad de Graciano Sánchez,NA,65000609,materialescuellar,Construrama Cuellar Materiales para Construcción,78220,San Luis Potosí,22.17,-101.003
+San Luis Potosí,Soledad de Graciano Sánchez,NA,65003391,mmrslp,Construrama Maderas y Materiales de Río Verde,78390,San Luis Potosí,22.151,-100.954
+San Luis Potosí,Soledad de Graciano Sánchez,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Soledad de Graciano Sánchez,NA,65301235,materialesortiz,Construrama Materiales Ortiz,79660,Ciudad Fernández,21.939,-100.043
+San Luis Potosí,Tierra Nueva,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Venado,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Villa de Arista,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Villa de Arriaga,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Villa de Ramos,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Villa de Reyes,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+San Luis Potosí,Villa de Reyes,NA,65119468,promexma-sanluispotosi,Promexma San Luis Potosí,78218,San Luis Potosí,22.134,-101.034
+San Luis Potosí,Zaragoza,NA,65005842,madiasa,Construrama MADIASA,78350,San Luis Potosí,22.134,-100.961
+Sinaloa,Escuinapa,NA,65005360,palomares,Construrama Materiales Palomares,82400,Escuinapa,22.83719167,-105.7744833
+Sinaloa,Navolato,NA,65001339,madueno,Construrama Maderas y Materiales Madueño,80370,Navolato,24.767,-107.7
+Sinaloa,Rosario,NA,65005360,palomares,Construrama Materiales Palomares,82400,Escuinapa,22.83719167,-105.7744833
+Sinaloa,Rosario_2,NA,65005360,palomares,Construrama Materiales Palomares,82400,Escuinapa,22.83719167,-105.7744833
+Sinaloa,Salvador Alvarado,NA,65985878,construgarguamuchil,Construrama Construgar Guamuchil,81400,81400,25.464041,-108.086551
+Sonora,Cajeme,NA,65147502,knmateriales,Construrama KN Materiales,85196,Cajeme,27.432,-109.935
+Sonora,Cajeme,NA,65003471,walhouse,Construrama WAL-HOUSE,85210,Esperanza,27.478,-109.953
+Sonora,Empalme,NA,65685336,ferreteriaindustrialsancarlos,Construrama Ferreteria Industrial San Carlos,85506,Guaymas,27.973,-111.024
+Sonora,Empalme,NA,65147502,knmateriales,Construrama KN Materiales,85196,Cajeme,27.432,-109.935
+Sonora,Guaymas,NA,65685336,ferreteriaindustrialsancarlos,Construrama Ferreteria Industrial San Carlos,85506,Guaymas,27.973,-111.024
+Sonora,Guaymas,NA,65147502,knmateriales,Construrama KN Materiales,85196,Cajeme,27.432,-109.935
+Sonora,Hermosillo,NA,65001494,san-benito,Construrama Ferretería y Maderería San Benito,83190,Hermosillo,29.093,-110.965
+Sonora,Hermosillo,NA,65147502,knmateriales,Construrama KN Materiales,85196,Cajeme,27.432,-109.935
+Tabasco,Centla,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Comalcalco,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Cunduacán,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Cárdenas,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Jalpa de Méndez,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Nacajuca,NA,66488026,materialeslalupita,Construrama La Lupita,86140,Villahermosa,17.973,-92.972
+Tabasco,Nacajuca,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Paraíso,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Villahermosa,NA,66488026,materialeslalupita,Construrama La Lupita,86140,Villahermosa,17.973,-92.972
+Tabasco,Villahermosa,NA,66446009,prodemat,Construrama Prodemat,86650,Comalcalco,18.248,-93.211
+Tabasco,Villahermosa,NA,65119423,promexma-villahermosa,Promexma Villahermosa,86126,Villahermosa,17.981,-92.973
+Tamaulipas,Altamira,NA,65007096,materiales-sanjose,Construrama Materiales San José,89309,Tampico,22.307,-97.853
+Tamaulipas,Altamira,NA,65148151,mndelgolfo,Construrama MN,89603,Altamira,22.357,-97.888
+Tamaulipas,Ciudad Madero,NA,65007096,materiales-sanjose,Construrama Materiales San José,89309,Tampico,22.307,-97.853
+Tamaulipas,Ciudad Madero,NA,65148151,mndelgolfo,Construrama MN,89603,Altamira,22.357,-97.888
+Tamaulipas,Güémez,NA,65974163,impulsorarudel,Construrama Impulsora Rudel,87018,Ciudad Victoria,23.765,-99.17
+Tamaulipas,Hidalgo,NA,65974163,impulsorarudel,Construrama Impulsora Rudel,87018,Ciudad Victoria,23.765,-99.17
+Tamaulipas,Llera,NA,65974163,impulsorarudel,Construrama Impulsora Rudel,87018,Ciudad Victoria,23.765,-99.17
+Tamaulipas,Matamoros,NA,66649056,materialesvallejo,Construrama Materiales Vallejo,87350,Matamoros,25.864,-97.515
+Tamaulipas,Miramar,NA,65148151,mndelgolfo,Construrama MN,89603,Altamira,22.357,-97.888
+Tamaulipas,Nuevo Laredo,NA,65000267,galvez,Construrama Arturo Gálvez Puebla,88120,Nuevo Laredo,27.509,-99.558
+Tamaulipas,Padilla,NA,65974163,impulsorarudel,Construrama Impulsora Rudel,87018,Ciudad Victoria,23.765,-99.17
+Tamaulipas,Reynosa,NA,65000765,construramablanquita,Construrama Blanquita.,88631,Reynosa,26.071,-98.292
+Tamaulipas,Tampico,NA,66462265,materialeslagloriatampico,Construrama Materiales La Gloria,89170,Tampico,22.2381,-97.8668
+Tamaulipas,Tampico,NA,65007096,materiales-sanjose,Construrama Materiales San José,89309,Tampico,22.307,-97.853
+Tamaulipas,Tampico,NA,65148151,mndelgolfo,Construrama MN,89603,Altamira,22.357,-97.888
+Tamaulipas,Victoria,NA,65005382,block-victoria,Construrama Block Victoria,87089,Cd. Victoria,23.755,-99.12
+Tamaulipas,Victoria,NA,65974163,impulsorarudel,Construrama Impulsora Rudel,87018,Ciudad Victoria,23.765,-99.17
+Tlaxcala,Acuamanala de Miguel Hidalgo,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Acuamanala de Miguel Hidalgo,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Amaxac de Guerrero,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Amaxac de Guerrero,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Apetatitlán de Antonio Carvajal,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Apetatitlán de Antonio Carvajal,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Apizaco,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Apizaco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Atlangatepec,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Atltzayanca,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Benito Juárez,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Benito Juárez,NA,65002697,materialeslaherraduracalpulapan,Construrama Materiales La Herradura,90200,Calpulalpan,19.5808233,-98.5642287
+Tlaxcala,Calpulalpan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Calpulalpan,NA,65006293,puertadelsol,Construrama Grupo Ferretero La Puerta del Sol,43900,Apan,19.708,-98.449
+Tlaxcala,Calpulalpan,NA,65002697,materialeslaherraduracalpulapan,Construrama Materiales La Herradura,90200,Calpulalpan,19.5808233,-98.5642287
+Tlaxcala,Chiautempan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Chiautempan,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Contla de Juan Cuamatzi,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Contla de Juan Cuamatzi,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Cuapiaxtla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Cuaxomulco,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Cuaxomulco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,El Carmen Tequexquitla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Emiliano Zapata,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Emiliano Zapata,NA,65002697,materialeslaherraduracalpulapan,Construrama Materiales La Herradura,90200,Calpulalpan,19.5808233,-98.5642287
+Tlaxcala,Españita,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Españita,NA,65002697,materialeslaherraduracalpulapan,Construrama Materiales La Herradura,90200,Calpulalpan,19.5808233,-98.5642287
+Tlaxcala,Huamantla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Hueyotlipan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Ixtacuixtla de Mariano Matamoros,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Ixtenco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,La Magdalena Tlaltelulco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,La Magdalena Tlaltelulco,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Lázaro Cárdenas,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Mazatecochco de José María Morelos,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Muñoz de Domingo Arenas,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Nanacamilpa de Mariano Arista,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Nanacamilpa de Mariano Arista,NA,65002697,materialeslaherraduracalpulapan,Construrama Materiales La Herradura,90200,Calpulalpan,19.5808233,-98.5642287
+Tlaxcala,Nativitas,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Panotla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Papalotla de Xicohténcatl,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Papalotla de Xicohténcatl,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,San Damián Texóloc,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San Francisco Tetlanohcan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San Francisco Tetlanohcan,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,San Jerónimo Zacualpan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San José Teacalco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San Juan Huactzinco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San Lorenzo Axocomanitla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San Lucas Tecopilco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,San Pablo del Monte,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Sanctórum de Lázaro Cárdenas,NA,65197281,cyma,Construrama Cementos y Materiales de Atlixco,74200,Atlixco,18.906,-98.439
+Tlaxcala,Sanctórum de Lázaro Cárdenas,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Sanctórum de Lázaro Cárdenas,NA,65002697,materialeslaherraduracalpulapan,Construrama Materiales La Herradura,90200,Calpulalpan,19.5808233,-98.5642287
+Tlaxcala,Santa Ana Nopalucan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Santa Apolonia Teacalco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Santa Catarina Ayometla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Santa Catarina Ayometla,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Santa Cruz Quilehtla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Santa Cruz Tlaxcala,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Santa Cruz Tlaxcala,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Santa Isabel Xiloxoxtla,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Santa Isabel Xiloxoxtla,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Tenancingo,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Teolocholco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Teolocholco,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Tepetitla lardizábal,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tepetitla lardizábal,NA,65119429,promexma-sanmartin,Promexma San Martín,74000,San Martin Texmelucan,19.289,-98.444
+Tlaxcala,Tepeyanco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tepeyanco,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Terrenate,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tetla de la Solidaridad,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Tetla de la Solidaridad,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tetlatlahuca,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tlaxcala,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tlaxco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tocatlán,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Totolac,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Tzompantepec,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Tzompantepec,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Xaloztoc,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Xaloztoc,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Xaltocan,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Xaltocan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Xicohtzinco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Yauhquemehcan,NA,65007616,aglomeradosdeoriente,Construrama Aglomerados de Oriente,90356,Apizaco,19.4031945,-98.1365711
+Tlaxcala,Yauhquemehcan,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Zacatelco,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Tlaxcala,Zacatelco,NA,65003050,elvalle,Construrama El Valle,90850,Teolocholco,19.244,-98.195
+Tlaxcala,Ziltlaltépec de Trinidad Sánchez Santos,NA,66375359,construmark,Construrama Constru-Mark,90000,Tlaxcala,19.3191618,-98.2271716
+Veracruz,Acatlán,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Actopan,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Acultzingo,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Acultzingo,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Alto Lucero de Gutiérrez Barrios,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Altotonga,NA,65026657,ebenezer,Construrama Eben-Ezer,93725,Altotonga,19.702,-97.255
+Veracruz,Alvarado,NA,65004007,ruma,Construrama Materiales Ruma,91940,Veracruz,19.157,-96.14
+Veracruz,Amatlán de los Reyes,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Aquila,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Atzacan,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Atzalan,NA,65026657,ebenezer,Construrama Eben-Ezer,93725,Altotonga,19.702,-97.255
+Veracruz,Banderilla,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Boca del Río,NA,65004007,ruma,Construrama Materiales Ruma,91940,Veracruz,19.157,-96.14
+Veracruz,Camerino Z. Mendoza,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Camerino Z. Mendoza,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Camerino Z. Mendoza,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Castillo de Teayo,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Cazones de Herrera,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Chacaltianguis,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Chiconquiaco,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Chocamán,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Chumatlán,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Coacoatzintla,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Coahuitlán,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Coatzintla,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Cosamaloapan de Carpio,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Coxquihui,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Coyutla,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Córdoba,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Córdoba,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Córdoba,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Espinal,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Filomeno Mata,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Fortín,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Fortín,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Fortín,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Gutiérrez Zamora,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Huatusco,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Isla,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Ixhuatlancillo,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Ixhuatlancillo,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Ixhuatlancillo,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Ixtaczoquitlán,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Ixtaczoquitlán,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Ixtaczoquitlán,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Jalacingo,NA,65026657,ebenezer,Construrama Eben-Ezer,93725,Altotonga,19.702,-97.255
+Veracruz,Jilotepec,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,José Azueta,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Juan Rodríguez Clara,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,La Perla,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,La Perla,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,La Perla,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Landero y Coss,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Las Vigas de Ramírez,NA,65026657,ebenezer,Construrama Eben-Ezer,93725,Altotonga,19.702,-97.255
+Veracruz,Maltrata,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Maltrata,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Mariano Escobedo,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Mariano Escobedo,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Mariano Escobedo,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Mecatlán,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Medellín,NA,65004007,ruma,Construrama Materiales Ruma,91940,Veracruz,19.157,-96.14
+Veracruz,Miahuatlán,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Mixtla de Altamirano,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Naolinco,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Nogales,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Nogales,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Nogales,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Orizaba,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Orizaba,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Otatitlán,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Papantla,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Perote,NA,65026657,ebenezer,Construrama Eben-Ezer,93725,Altotonga,19.702,-97.255
+Veracruz,Playa Vicente,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Poza Rica de Hidalgo,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Pánuco,NA,66462265,materialeslagloriatampico,Construrama Materiales La Gloria,89170,Tampico,22.2381,-97.8668
+Veracruz,Rafael Delgado,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Rafael Delgado,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Río Blanco,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Río Blanco,NA,65249544,marego,Construrama Marego,94476,Fortin,18.904,-96.96
+Veracruz,Río Blanco,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Soledad Atzompa,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Tecolutla,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Tepetlán,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Tequila,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Tequila,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Tlacojalpan,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Tlaquilpa,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Tlilapan,NA,65002002,ferroacero,Construrama Ferro Acero Comercial,94300,Orizaba,18.84,-97.115
+Veracruz,Tonayán,NA,65002003,materialescallejas,Construrama Materiales Callejas,91400,Naolinco,19.653,-96.876
+Veracruz,Tres Valles,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Tuxpan,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Veracruz,Tuxtilla,NA,65744899,elgavilan,Construrama El Gavilán,68400,Loma bonita,18.105,-95.88
+Veracruz,Veracruz,NA,65004007,ruma,Construrama Materiales Ruma,91940,Veracruz,19.157,-96.14
+Veracruz,Villa Aldama,NA,65026657,ebenezer,Construrama Eben-Ezer,93725,Altotonga,19.702,-97.255
+Veracruz,Zongolica,NA,65119434,promexma-orizaba,Promexma Orizaba,94732,Río Blanco,18.839,-97.122
+Veracruz,Zozocolco de Hidalgo,NA,65000512,alba,Construrama Aceros y Materiales ALBA,93340,Poza Rica de Hidalgo,20.525635,-97.464703
+Yucatán,Caucel,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Caucel,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Caucel,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Caucel,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Yucatán,Caucel,NA,65119415,promexma-merida1,Promexma Mérida 1,97288,Mérida,20.938,-89.668
+Yucatán,Conkal,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Conkal,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Conkal,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Kanasín,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Kanasín,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Kanasín,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Kanasín,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Yucatán,Mérida,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Mérida,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Mérida,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Mérida,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Yucatán,Mérida,NA,65119415,promexma-merida1,Promexma Mérida 1,97288,Mérida,20.938,-89.668
+Yucatán,Mérida Calle 113,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Mérida Calle 113,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Mérida Calle 113,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Mérida Calle 113,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Yucatán,Mérida Calle 113,NA,65119415,promexma-merida1,Promexma Mérida 1,97288,Mérida,20.938,-89.668
+Yucatán,Mérida Kanasín,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Mérida Kanasín,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Mérida Kanasín,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Mérida Kanasín,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Yucatán,Mérida Kanasín,NA,65119415,promexma-merida1,Promexma Mérida 1,97288,Mérida,20.938,-89.668
+Yucatán,Mérida calle 125,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Mérida calle 125,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Mérida calle 125,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Mérida calle 125,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Yucatán,Mérida calle 125,NA,65119415,promexma-merida1,Promexma Mérida 1,97288,Mérida,20.938,-89.668
+Yucatán,Umán,NA,66567879,acerimatchuburna,Construrama ACERIMAT Chuburna,97208,Mérida,21.019,-89.625
+Yucatán,Umán,NA,66254348,acerimatlosheroes,Construrama ACERIMAT Los Heroes,97300,Mérida,20.982,-89.553
+Yucatán,Umán,NA,65016085,acerimatnorte,Construrama ACERIMAT Norte,97136,Mérida,20.997,-89.598
+Yucatán,Umán,NA,65973236,acerimat,Construrama ACERIMAT San Antonio,97139,Mérida,21.006,-89.604
+Zacatecas,Guadalupe,NA,65005044,camino-real,Construrama Camino Real Ferretería y Materiales,98615,Guadalupe,22.758,-102.506
+Zacatecas,Jerez,NA,66335282,casamex,Construrama CASAMEX de Jerez,99390,Jerez,22.639,-102.992
+Zacatecas,Sombrerete,NA,65004783,acerosdesombrerete,Construrama Aceros de Sombrerete,99100,Sombrerete,23.6345,-103.635
+Zacatecas,Zacatecas,NA,65005044,camino-real,Construrama Camino Real Ferretería y Materiales,98615,Guadalupe,22.758,-102.506
