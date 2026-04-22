@@ -115,8 +115,8 @@ library(sf)     # Para hacer mapas
 
 # Lo que vimos en clase: 
 # La serie de Aguascalientes: 
-inegi_series(series_id = "746098", 
-             token = "682ad7f9-19fe-47f0-abec-e4c2ab2f2948", # Cambiar por su clave
+inegi_series(series_id = "746098",
+             token = Sys.getenv("INEGI_TOKEN"), # Guardar token en .Renviron como INEGI_TOKEN=...
              database = "BIE")
 
 # Para acceder a los datos del PIBE (PIB Estatal)
@@ -143,7 +143,7 @@ pibe_estados <- tibble() # Tabla para llenar con los datos del PIBE
 for(i in 1:length(claves_de_los_estados)){
   
   serie_pibe <- inegi_series(series_id = claves_para_descargar[i], 
-               token = "682ad7f9-19fe-47f0-abec-e4c2ab2f2948", # Cambiar por su clave
+               token = Sys.getenv("INEGI_TOKEN"), # Guardar token en .Renviron como INEGI_TOKEN=...
                database = "BIE") %>% 
     mutate(cve_edo = claves_de_los_estados[i])
   
